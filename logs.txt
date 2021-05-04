@@ -1,0 +1,19 @@
+Wed May 05 2021 04:29:50 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Wed May 05 2021 04:30:12 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Wed May 05 2021 04:30:15 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Wed May 05 2021 04:30:17 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Wed May 05 2021 04:30:20 GMT+0530 (India Standard Time) : Removing candidate with id : 1
+Wed May 05 2021 04:30:20 GMT+0530 (India Standard Time) : Candidate with id : 1 deleted successfully.
+Wed May 05 2021 04:30:21 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Wed May 05 2021 04:30:21 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Wed May 05 2021 04:30:26 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Wed May 05 2021 04:31:46 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Wed May 05 2021 04:31:46 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Wed May 05 2021 04:33:11 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Wed May 05 2021 04:33:11 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Wed May 05 2021 04:33:19 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Wed May 05 2021 04:33:19 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Wed May 05 2021 04:33:21 GMT+0530 (India Standard Time) : Removing candidate with id : 1
+Wed May 05 2021 04:33:21 GMT+0530 (India Standard Time) : Candidate with id : 1 deleted successfully.
+Wed May 05 2021 04:33:22 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Wed May 05 2021 04:33:22 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)

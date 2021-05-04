@@ -1,5 +1,8 @@
 package com.gradmanagement.project.service;
 
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -87,18 +90,18 @@ private JdbcTemplate jdbcobj;
 		StringBuilder str = new StringBuilder();
 		str.append("Editing user details : ");
 		//contact,address,role,feedback,skillset,location
-		if(obj.getContact().equals(user.getContact()))
+		if(!obj.getContact().equals(user.getContact()))
 			str.append("contact to "+ user.getContact()+" ; ");
-		if(obj.getAddress().equals(user.getAddress()))
+		if(!obj.getAddress().equals(user.getAddress()))
 			str.append("address to "+ user.getAddress()+" ; ");
-		if(obj.getRole().equals(user.getRole()))
-			str.append("contact to "+ user.getRole()+" ; ");
-		if(obj.getFeedback().equals(user.getFeedback()))
-			str.append("contact to "+ user.getFeedback()+" ; ");
-		if(obj.getSkillset().equals(user.getSkillset()))
-			str.append("contact to "+ user.getSkillset()+" ; ");
-		if(obj.getLocation().equals(user.getLocation()))
-			str.append("contact to "+ user.getLocation()+" ; ");
+		if(!obj.getRole().equals(user.getRole()))
+			str.append("Role to "+ user.getRole()+" ; ");
+		if(!obj.getFeedback().equals(user.getFeedback()))
+			str.append("Feedback to "+ user.getFeedback()+" ; ");
+		if(!obj.getSkillset().equals(user.getSkillset()))
+			str.append("Skillset to "+ user.getSkillset()+" ; ");
+		if(!obj.getLocation().equals(user.getLocation()))
+			str.append("Location to "+ user.getLocation()+" ; ");
 			
 		logger.info(str.toString());
 		logger.info("Edited candidate by id : " + user.getId() + " and by name "+user.getFname() +" "+user.getLname()+" successfully");
@@ -217,8 +220,11 @@ private JdbcTemplate jdbcobj;
 		return role;
 	}
 	
-	public void saveLogs()
+	public void saveLogs(String str) throws IOException
 	{
-		
+		BufferedWriter writer = new BufferedWriter(new FileWriter("logs.txt",true));
+	    writer.append(str);
+	    writer.newLine();
+	    writer.close();
 	}
 }

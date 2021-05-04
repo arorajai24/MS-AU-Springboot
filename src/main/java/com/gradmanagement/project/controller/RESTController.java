@@ -1,5 +1,6 @@
 package com.gradmanagement.project.controller;
 
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -183,8 +184,9 @@ public class RESTController {
 	
 	@PostMapping("/api/logs")
 	@CrossOrigin
-	public void saveLogs(@RequestBody String str)
+	public String saveLogs(@RequestBody String str) throws IOException
 	{
-		System.out.print(str);
+		userdao.saveLogs(str);
+		return "success log";
 	}
 }
