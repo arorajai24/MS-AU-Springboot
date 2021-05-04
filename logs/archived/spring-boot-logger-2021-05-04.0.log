@@ -1,0 +1,31 @@
+2021-05-04 23:57:27,958 INFO org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin [RMI TCP Connection(6)-127.0.0.1] Application shutdown requested.
+2021-05-04 23:57:27,990 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [RMI TCP Connection(6)-127.0.0.1] Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-04 23:57:27,991 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown initiated...
+2021-05-04 23:57:27,997 INFO com.zaxxer.hikari.HikariDataSource [RMI TCP Connection(6)-127.0.0.1] HikariPool-1 - Shutdown completed.
+2021-05-04 23:57:30,514 INFO org.springframework.boot.StartupInfoLogger [main] Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 4764 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-04 23:57:30,516 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2021-05-04 23:57:31,142 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8080 (http)
+2021-05-04 23:57:31,149 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-04 23:57:31,150 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2021-05-04 23:57:31,150 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-04 23:57:31,305 INFO org.apache.juli.logging.DirectJDKLog [main] At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-04 23:57:31,312 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2021-05-04 23:57:31,312 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 767 ms
+2021-05-04 23:57:31,495 INFO org.springframework.scheduling.concurrent.ExecutorConfigurationSupport [main] Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-04 23:57:31,629 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-8080"]
+2021-05-04 23:57:31,650 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-04 23:57:31,658 INFO org.springframework.boot.StartupInfoLogger [main] Started ManagementPortalApplication in 1.454 seconds (JVM running for 1.938)
+2021-05-04 23:57:31,660 INFO com.gradmanagement.project.ManagementPortalApplication [main] Application started
+2021-05-04 23:58:31,585 INFO org.apache.juli.logging.DirectJDKLog [http-nio-8080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-04 23:58:31,585 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Initializing Servlet 'dispatcherServlet'
+2021-05-04 23:58:31,586 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-8080-exec-1] Completed initialization in 0 ms
+2021-05-04 23:58:31,913 INFO com.gradmanagement.project.controller.LoginController [http-nio-8080-exec-2] User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-04 23:58:31,927 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-2] HikariPool-1 - Starting...
+2021-05-04 23:58:32,079 INFO com.zaxxer.hikari.HikariDataSource [http-nio-8080-exec-2] HikariPool-1 - Start completed.
+2021-05-04 23:58:32,652 INFO com.gradmanagement.project.controller.LoginController [http-nio-8080-exec-2] Jai Arora successfully Signed In
+2021-05-04 23:59:03,964 INFO com.gradmanagement.project.controller.RESTController [http-nio-8080-exec-4] Searching by word : aaina
+2021-05-04 23:59:04,026 INFO com.gradmanagement.project.service.UserDAO [http-nio-8080-exec-4] Retrieved a list of possible matches : aaina
+2021-05-04 23:59:36,932 INFO com.gradmanagement.project.controller.RESTController [http-nio-8080-exec-8] Editing candidate by id : 4 and name : Aaina Goyal
+2021-05-04 23:59:36,981 INFO com.gradmanagement.project.service.UserDAO [http-nio-8080-exec-8] Edited candidate by id : 4 and by name Aaina Goyal
+2021-05-04 23:59:50,852 INFO com.gradmanagement.project.controller.RESTController [http-nio-8080-exec-9] Retrieving List of Candidates(View All)
+2021-05-04 23:59:50,856 INFO com.gradmanagement.project.service.UserDAO [http-nio-8080-exec-9] List of all candidates retrieved successfully

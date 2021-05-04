@@ -1,5 +1,6 @@
 package com.gradmanagement.project.controller;
 
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -12,6 +13,8 @@ import com.gradmanagement.project.model.Response;
 import com.gradmanagement.project.security.ApiGateway;
 import com.gradmanagement.project.service.authUserDAO;
 
+import ch.qos.logback.classic.Logger;
+
 @RestController
 public class LoginController {
 	@Autowired
@@ -20,11 +23,16 @@ public class LoginController {
 	@Autowired
 	ApiGateway api;
 	
+	Logger logger = (Logger) LoggerFactory.getLogger(LoginController.class);
+	
+	
 	@PostMapping("/savesResponse")
 	@CrossOrigin
 	public Response Savesresponse(@RequestBody AuthUser authUser)
 	{
+		logger.info("User " + authUser.getName()+ " is signing in as : "+authUser.getEmail());
 		authuserdao.saveAuthUser(authUser);
+		logger.info(authUser.getName()+" successfully Signed In");
         return new Response("success","Data Stored");
 	}
 	
@@ -34,11 +42,16 @@ public class LoginController {
 	{
 		if(api.authenticate(id, authorization))
 		{	
+			logger.info("User by id : "+ id +" is logging out");
 			authuserdao.removeResponse(id);
+			logger.info("Logged Out Successfully.");
         	return new Response("Success","Logged Out");
 		}
 		else
+		{
+			logger.info("Access denied of logging out");
 			return new Response("Access Denied","Failed");
+		}
 	}
 }
 

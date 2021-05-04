@@ -8,9 +8,13 @@ import java.util.Map;
 
 import org.springframework.stereotype.Repository;
 
+import com.gradmanagement.project.controller.RESTController;
 import com.gradmanagement.project.model.ObjectString;
 import com.gradmanagement.project.model.User;
 
+import ch.qos.logback.classic.Logger;
+
+import org.slf4j.LoggerFactory;
 import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
@@ -21,6 +25,8 @@ import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 @Repository
 public class UserDAO {
 private JdbcTemplate jdbcobj;
+	
+	Logger logger = (Logger) LoggerFactory.getLogger(UserDAO.class);
 
 	public UserDAO(JdbcTemplate jdbcobj) {
 		super();
@@ -29,7 +35,9 @@ private JdbcTemplate jdbcobj;
 	
 	public Iterable<User> listGrad(){   
 		String sql = "SELECT * FROM grads";
-		return jdbcobj.query(sql, BeanPropertyRowMapper.newInstance(User.class));
+		Iterable<User> list = jdbcobj.query(sql, BeanPropertyRowMapper.newInstance(User.class));
+		logger.info("List of all candidates retrieved successfully");
+		return list;
 	}
 	
 	public void deleteGrad(int id)   //
@@ -38,6 +46,7 @@ private JdbcTemplate jdbcobj;
 		jdbcobj.update(sql, id);
 		String sql2 = "DELETE FROM object_string WHERE id=?";
 		jdbcobj.update(sql2,id);
+		logger.info("Candidate deleted successfully with id : "+ id);
 	}
 	
 	public static String toObjectString(User user)
@@ -57,11 +66,14 @@ private JdbcTemplate jdbcobj;
 		insertActor2.withTableName("object_string").usingColumns("id","string");
 		BeanPropertySqlParameterSource param2 = new BeanPropertySqlParameterSource(new ObjectString(0, toObjectString(user)));
 		insertActor2.execute(param2);
+		logger.info("Candidate registered successfully by name : "+user.getFname()+" "+user.getLname()+" and by id : "+user.getId());
 		
 	}
 	
 	public void editUser(User user)   //
 	{
+		User obj = findById(user.getId());
+		
 		String sql = "UPDATE grads SET fname=:fname, lname=:lname, gender=:gender, age=:age, email=:email, contact=:contact, address=:address, role=:role, date=:date, feedback=:feedback, institution=:institution, skillset=:skillset, location=:location WHERE id=:id";
 		BeanPropertySqlParameterSource param = new BeanPropertySqlParameterSource(user);
 		NamedParameterJdbcTemplate template = new NamedParameterJdbcTemplate(jdbcobj);
@@ -71,10 +83,29 @@ private JdbcTemplate jdbcobj;
 		BeanPropertySqlParameterSource param2 = new BeanPropertySqlParameterSource(new ObjectString(user.getId(),toObjectString(user)));
 		NamedParameterJdbcTemplate template2 = new NamedParameterJdbcTemplate(jdbcobj);
 		template2.update(sql2, param2);
+		
+		StringBuilder str = new StringBuilder();
+		str.append("Editing user details : ");
+		//contact,address,role,feedback,skillset,location
+		if(obj.getContact().equals(user.getContact()))
+			str.append("contact to "+ user.getContact()+" ; ");
+		if(obj.getAddress().equals(user.getAddress()))
+			str.append("address to "+ user.getAddress()+" ; ");
+		if(obj.getRole().equals(user.getRole()))
+			str.append("contact to "+ user.getRole()+" ; ");
+		if(obj.getFeedback().equals(user.getFeedback()))
+			str.append("contact to "+ user.getFeedback()+" ; ");
+		if(obj.getSkillset().equals(user.getSkillset()))
+			str.append("contact to "+ user.getSkillset()+" ; ");
+		if(obj.getLocation().equals(user.getLocation()))
+			str.append("contact to "+ user.getLocation()+" ; ");
+			
+		logger.info(str.toString());
+		logger.info("Edited candidate by id : " + user.getId() + " and by name "+user.getFname() +" "+user.getLname()+" successfully");
 	}
 	
 	@SuppressWarnings("deprecation")
-	public List<User> findByFirstname(String searchVar) {
+	public List<User> searchBySearchVar(String searchVar) {
 	    String sql = "SELECT id FROM object_string WHERE string LIKE ?";
 	    String sql2 = "SELECT * FROM grads WHERE id=?";
 	    String new_searchVar = "%"+searchVar+"%";
@@ -86,6 +117,7 @@ private JdbcTemplate jdbcobj;
 	    {
 	    	ret_list.add(jdbcobj.queryForObject(sql2, new Object[]{list_id.get(i).getId()} ,BeanPropertyRowMapper.newInstance(User.class)));
 	    }
+	    logger.info("Retrieved a list of possible matches : " + searchVar);
 		return ret_list;
 	  }
 	
@@ -183,5 +215,10 @@ private JdbcTemplate jdbcobj;
  		}  
 		role.remove("");
 		return role;
+	}
+	
+	public void saveLogs()
+	{
+		
 	}
 }

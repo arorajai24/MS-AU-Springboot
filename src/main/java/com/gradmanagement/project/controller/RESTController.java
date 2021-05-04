@@ -4,6 +4,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,9 +23,13 @@ import com.gradmanagement.project.model.User;
 import com.gradmanagement.project.security.ApiGateway;
 import com.gradmanagement.project.service.UserDAO;
 
+import ch.qos.logback.classic.Logger;
+
 @RestController
 public class RESTController {
 
+	Logger logger = (Logger) LoggerFactory.getLogger(RESTController.class);
+	
 	@Autowired
 	private UserDAO userdao;
 	
@@ -44,8 +49,10 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
+			logger.info("Retrieving List of Candidates(View All)");
 			return userdao.listGrad();
 		}
+		logger.info("Access denied of viewing");
 		return null;
 	}
 	
@@ -55,9 +62,12 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
+			logger.info("Deleting Candidate of ID : " + tmp);
 			userdao.deleteGrad(tmp);
+			return;
 		}
-		
+		logger.info("Access denied of deleting");
+		return;
 	}
 	
 	@PostMapping("/save-user")
@@ -67,21 +77,25 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
+			logger.info("Registering Candidate by name : " + user.getFname()+" "+user.getLname());
 			userdao.registerUser(user);
-			return user.getFname() + " has been registered successfully.";
+			return user.getFname() +" "+ user.getLname() + " has been registered successfully.";
 		}
+		logger.info("Access denied of registering");
 		return "Access Denied";
 	}
 	
 	@RequestMapping("/search/{fname}")
 	@Transactional
 	@CrossOrigin
-	public Iterable<User> searchByFirstname(@PathVariable(name="fname") String searchVar, @RequestHeader String id, @RequestHeader String authorization)
+	public Iterable<User> searchBySearchVar(@PathVariable(name="fname") String searchVar, @RequestHeader String id, @RequestHeader String authorization)
 	{
 		if(api.authenticate(id, authorization))
 		{
-			return userdao.findByFirstname(searchVar);
+			logger.info("Searching by word : " + searchVar);
+			return userdao.searchBySearchVar(searchVar);
 		}
+		logger.info("Access denied of searching");
 		return null;
 	}
 	
@@ -104,9 +118,11 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
+			logger.info("Editing candidate by id : " + user.getId()+" and name : "+user.getFname()+" "+user.getLname());
 			userdao.editUser(user);
 			return "Record of " + user.getFname() + " is updated successfully.";
 		}
+		logger.info("Access denied of editing candidate");
 		return "Access Denied";
 	}
 	
@@ -163,5 +179,12 @@ public class RESTController {
 			return userdao.gradFeedbackMap();
 		}
 		return null;
+	}
+	
+	@PostMapping("/api/logs")
+	@CrossOrigin
+	public void saveLogs(@RequestBody String str)
+	{
+		System.out.print(str);
 	}
 }
