@@ -1,8 +1,11 @@
 package com.gradmanagement.project.service;
 
+import java.io.BufferedReader;
 import java.io.BufferedWriter;
+import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
@@ -226,5 +229,19 @@ private JdbcTemplate jdbcobj;
 	    writer.append(str);
 	    writer.newLine();
 	    writer.close();
+	}
+	
+	public List<String> retrieveLogs() throws IOException
+	{
+
+		List<String> rts = new ArrayList<>();
+        try (BufferedReader br = new BufferedReader(new FileReader("logs.txt", StandardCharsets.UTF_8))){
+
+            String line;
+            while ((line = br.readLine()) != null) {
+            	rts.add(0, line);
+            }
+            return rts;
+        }
 	}
 }

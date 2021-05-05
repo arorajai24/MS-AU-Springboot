@@ -408,3 +408,392 @@
 2021-05-05  :  04:34:15  :  Shutting down ExecutorService 'applicationTaskExecutor'
 2021-05-05  :  04:34:15  :  HikariPool-1 - Shutdown initiated...
 2021-05-05  :  04:34:15  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  13:24:31  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 5184 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  13:24:31  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  13:24:32  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  13:24:32  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:24:32  :  Starting service [Tomcat]
+2021-05-05  :  13:24:32  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  13:24:32  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  13:24:32  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  13:24:32  :  Root WebApplicationContext: initialization completed in 1626 ms
+2021-05-05  :  13:24:33  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:24:33  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:24:33  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  13:24:33  :  Started ManagementPortalApplication in 3.242 seconds (JVM running for 4.321)
+2021-05-05  :  13:24:33  :  Application started
+2021-05-05  :  13:24:39  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  13:24:39  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  13:24:39  :  Completed initialization in 0 ms
+2021-05-05  :  13:24:39  :  Logs are being accesseed.
+2021-05-05  :  13:25:00  :  Application shutdown requested.
+2021-05-05  :  13:25:00  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:25:04  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 4272 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  13:25:04  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  13:25:06  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  13:25:06  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:25:06  :  Starting service [Tomcat]
+2021-05-05  :  13:25:06  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  13:25:06  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  13:25:06  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  13:25:06  :  Root WebApplicationContext: initialization completed in 2260 ms
+2021-05-05  :  13:25:06  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:25:07  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:25:07  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  13:25:07  :  Started ManagementPortalApplication in 3.843 seconds (JVM running for 4.832)
+2021-05-05  :  13:25:07  :  Application started
+2021-05-05  :  13:30:31  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  13:30:31  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  13:30:31  :  Completed initialization in 2 ms
+2021-05-05  :  13:30:31  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  13:30:31  :  HikariPool-1 - Starting...
+2021-05-05  :  13:30:31  :  HikariPool-1 - Start completed.
+2021-05-05  :  13:30:32  :  Jai Arora successfully Signed In
+2021-05-05  :  13:30:34  :  Retrieving List of Candidates(View All)
+2021-05-05  :  13:30:35  :  List of all candidates retrieved successfully
+2021-05-05  :  13:30:38  :  Logs are being accesseed.
+2021-05-05  :  13:33:14  :  Logs are being accesseed.
+2021-05-05  :  13:33:17  :  Logs are being accesseed.
+2021-05-05  :  13:33:22  :  Logs are being accesseed.
+2021-05-05  :  13:37:27  :  Application shutdown requested.
+2021-05-05  :  13:37:27  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:37:27  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  13:37:27  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  13:37:31  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 7952 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  13:37:31  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  13:37:32  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  13:37:32  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:37:32  :  Starting service [Tomcat]
+2021-05-05  :  13:37:32  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  13:37:32  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  13:37:32  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  13:37:32  :  Root WebApplicationContext: initialization completed in 1625 ms
+2021-05-05  :  13:37:33  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:37:33  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:37:33  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  13:37:33  :  Started ManagementPortalApplication in 3.057 seconds (JVM running for 3.872)
+2021-05-05  :  13:37:33  :  Application started
+2021-05-05  :  13:37:38  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  13:37:38  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  13:37:38  :  Completed initialization in 0 ms
+2021-05-05  :  13:37:38  :  HikariPool-1 - Starting...
+2021-05-05  :  13:37:38  :  HikariPool-1 - Start completed.
+2021-05-05  :  13:37:38  :  Logs are being accesseed.
+2021-05-05  :  13:57:27  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 8716 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  13:57:27  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  13:57:33  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  13:57:33  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:57:33  :  Starting service [Tomcat]
+2021-05-05  :  13:57:33  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  13:57:34  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  13:57:34  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  13:57:34  :  Root WebApplicationContext: initialization completed in 6372 ms
+2021-05-05  :  13:57:35  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:57:35  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:57:35  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  13:57:35  :  Started ManagementPortalApplication in 9.12 seconds (JVM running for 10.784)
+2021-05-05  :  13:57:35  :  Application started
+2021-05-05  :  14:19:53  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 6880 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  14:19:53  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  14:19:53  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  14:19:53  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:19:53  :  Starting service [Tomcat]
+2021-05-05  :  14:19:53  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  14:19:53  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  14:19:53  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  14:19:53  :  Root WebApplicationContext: initialization completed in 869 ms
+2021-05-05  :  14:19:54  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:19:54  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:19:54  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  14:19:54  :  Started ManagementPortalApplication in 1.696 seconds (JVM running for 2.548)
+2021-05-05  :  14:19:54  :  Application started
+2021-05-05  :  14:20:12  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  14:20:12  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  14:20:12  :  Completed initialization in 0 ms
+2021-05-05  :  14:20:12  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  14:20:12  :  HikariPool-1 - Starting...
+2021-05-05  :  14:20:12  :  HikariPool-1 - Start completed.
+2021-05-05  :  14:20:13  :  Jai Arora successfully Signed In
+2021-05-05  :  14:20:15  :  Logs are being accesseed.
+2021-05-05  :  14:20:18  :  Retrieving List of Candidates(View All)
+2021-05-05  :  14:20:18  :  List of all candidates retrieved successfully
+2021-05-05  :  14:20:19  :  Logs are being accesseed.
+2021-05-05  :  14:20:50  :  Logs are being accesseed.
+2021-05-05  :  14:21:25  :  Logs are being accesseed.
+2021-05-05  :  14:21:28  :  Logs are being accesseed.
+2021-05-05  :  14:22:13  :  Logs are being accesseed.
+2021-05-05  :  14:22:16  :  Logs are being accesseed.
+2021-05-05  :  14:22:29  :  Logs are being accesseed.
+2021-05-05  :  14:22:37  :  Logs are being accesseed.
+2021-05-05  :  14:22:40  :  Logs are being accesseed.
+2021-05-05  :  14:22:56  :  Logs are being accesseed.
+2021-05-05  :  14:24:31  :  Logs are being accesseed.
+2021-05-05  :  14:24:42  :  Logs are being accesseed.
+2021-05-05  :  14:24:49  :  Logs are being accesseed.
+2021-05-05  :  14:25:12  :  Logs are being accesseed.
+2021-05-05  :  14:25:15  :  Logs are being accesseed.
+2021-05-05  :  14:25:47  :  Logs are being accesseed.
+2021-05-05  :  14:25:53  :  Logs are being accesseed.
+2021-05-05  :  14:27:24  :  Logs are being accesseed.
+2021-05-05  :  14:27:27  :  Logs are being accesseed.
+2021-05-05  :  14:27:50  :  Logs are being accesseed.
+2021-05-05  :  14:29:36  :  Logs are being accesseed.
+2021-05-05  :  14:29:44  :  Logs are being accesseed.
+2021-05-05  :  14:30:21  :  Logs are being accesseed.
+2021-05-05  :  14:30:23  :  Logs are being accesseed.
+2021-05-05  :  14:30:47  :  Logs are being accesseed.
+2021-05-05  :  14:30:53  :  Logs are being accesseed.
+2021-05-05  :  14:31:42  :  Logs are being accesseed.
+2021-05-05  :  14:31:45  :  Logs are being accesseed.
+2021-05-05  :  14:35:38  :  Logs are being accesseed.
+2021-05-05  :  14:35:53  :  Logs are being accesseed.
+2021-05-05  :  14:35:55  :  Logs are being accesseed.
+2021-05-05  :  14:36:42  :  Logs are being accesseed.
+2021-05-05  :  14:36:45  :  Logs are being accesseed.
+2021-05-05  :  14:36:50  :  Logs are being accesseed.
+2021-05-05  :  14:38:14  :  Logs are being accesseed.
+2021-05-05  :  14:38:18  :  Logs are being accesseed.
+2021-05-05  :  14:38:45  :  Logs are being accesseed.
+2021-05-05  :  14:38:49  :  Logs are being accesseed.
+2021-05-05  :  14:41:03  :  Application shutdown requested.
+2021-05-05  :  14:41:03  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:41:03  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  14:41:03  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  14:41:05  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 7012 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  14:41:05  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  14:41:06  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  14:41:06  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:41:06  :  Starting service [Tomcat]
+2021-05-05  :  14:41:06  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  14:41:06  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  14:41:06  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  14:41:06  :  Root WebApplicationContext: initialization completed in 765 ms
+2021-05-05  :  14:41:06  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:41:06  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:41:06  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  14:41:06  :  Started ManagementPortalApplication in 1.445 seconds (JVM running for 1.962)
+2021-05-05  :  14:41:06  :  Application started
+2021-05-05  :  14:41:54  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  14:41:54  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  14:41:54  :  Completed initialization in 1 ms
+2021-05-05  :  14:41:54  :  HikariPool-1 - Starting...
+2021-05-05  :  14:41:54  :  HikariPool-1 - Start completed.
+2021-05-05  :  14:41:55  :  Logs are being accesseed.
+2021-05-05  :  14:42:34  :  Application shutdown requested.
+2021-05-05  :  14:42:34  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:42:34  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  14:42:34  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  14:42:36  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 2524 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  14:42:36  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  14:42:37  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  14:42:37  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:42:37  :  Starting service [Tomcat]
+2021-05-05  :  14:42:37  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  14:42:37  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  14:42:37  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  14:42:37  :  Root WebApplicationContext: initialization completed in 813 ms
+2021-05-05  :  14:42:37  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:42:38  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:42:38  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  14:42:38  :  Started ManagementPortalApplication in 1.531 seconds (JVM running for 2.047)
+2021-05-05  :  14:42:38  :  Application started
+2021-05-05  :  14:42:42  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  14:42:42  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  14:42:42  :  Completed initialization in 1 ms
+2021-05-05  :  14:42:43  :  HikariPool-1 - Starting...
+2021-05-05  :  14:42:43  :  HikariPool-1 - Start completed.
+2021-05-05  :  14:42:43  :  Logs are being accesseed.
+2021-05-05  :  14:43:23  :  Logs are being accesseed.
+2021-05-05  :  14:43:34  :  Logs are being accesseed.
+2021-05-05  :  14:43:37  :  Logs are being accesseed.
+2021-05-05  :  14:43:54  :  Logs are being accesseed.
+2021-05-05  :  14:44:02  :  Logs are being accesseed.
+2021-05-05  :  14:44:45  :  Logs are being accesseed.
+2021-05-05  :  14:44:54  :  Logs are being accesseed.
+2021-05-05  :  14:44:56  :  Logs are being accesseed.
+2021-05-05  :  14:44:57  :  Retrieving List of Candidates(View All)
+2021-05-05  :  14:44:57  :  List of all candidates retrieved successfully
+2021-05-05  :  14:44:58  :  Logs are being accesseed.
+2021-05-05  :  14:45:30  :  Logs are being accesseed.
+2021-05-05  :  14:45:34  :  Retrieving List of Candidates(View All)
+2021-05-05  :  14:45:34  :  List of all candidates retrieved successfully
+2021-05-05  :  14:45:35  :  Logs are being accesseed.
+2021-05-05  :  14:45:43  :  Searching by word : jai
+2021-05-05  :  14:45:43  :  Retrieved a list of possible matches : jai
+2021-05-05  :  14:45:53  :  Editing candidate by id : 2 and name : Jai Arora
+2021-05-05  :  14:45:53  :  Editing user details : Feedback to Average ; 
+2021-05-05  :  14:45:53  :  Edited candidate by id : 2 and by name Jai Arora successfully
+2021-05-05  :  14:45:54  :  Logs are being accesseed.
+2021-05-05  :  14:46:31  :  Logs are being accesseed.
+2021-05-05  :  14:46:37  :  Logs are being accesseed.
+2021-05-05  :  14:49:23  :  Logs are being accesseed.
+2021-05-05  :  14:49:46  :  Logs are being accesseed.
+2021-05-05  :  14:50:01  :  Logs are being accesseed.
+2021-05-05  :  14:50:45  :  Logs are being accesseed.
+2021-05-05  :  14:51:01  :  Logs are being accesseed.
+2021-05-05  :  14:52:01  :  Logs are being accesseed.
+2021-05-05  :  14:52:10  :  Logs are being accesseed.
+2021-05-05  :  14:52:48  :  Logs are being accesseed.
+2021-05-05  :  14:52:53  :  Logs are being accesseed.
+2021-05-05  :  14:53:59  :  Logs are being accesseed.
+2021-05-05  :  14:54:19  :  Logs are being accesseed.
+2021-05-05  :  14:54:27  :  Logs are being accesseed.
+2021-05-05  :  14:55:23  :  Logs are being accesseed.
+2021-05-05  :  14:56:15  :  Logs are being accesseed.
+2021-05-05  :  14:56:24  :  Logs are being accesseed.
+2021-05-05  :  14:56:30  :  Logs are being accesseed.
+2021-05-05  :  14:58:50  :  Logs are being accesseed.
+2021-05-05  :  14:59:05  :  Logs are being accesseed.
+2021-05-05  :  14:59:37  :  Logs are being accesseed.
+2021-05-05  :  15:00:00  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:00:00  :  List of all candidates retrieved successfully
+2021-05-05  :  15:00:01  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:00:01  :  List of all candidates retrieved successfully
+2021-05-05  :  15:00:05  :  Deleting Candidate of ID : 2
+2021-05-05  :  15:00:05  :  Candidate deleted successfully with id : 2
+2021-05-05  :  15:00:05  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:00:05  :  List of all candidates retrieved successfully
+2021-05-05  :  15:00:06  :  Logs are being accesseed.
+2021-05-05  :  15:01:35  :  Logs are being accesseed.
+2021-05-05  :  15:02:09  :  Logs are being accesseed.
+2021-05-05  :  15:02:31  :  Logs are being accesseed.
+2021-05-05  :  15:04:00  :  Logs are being accesseed.
+2021-05-05  :  15:04:18  :  Registering Candidate by name : Jai Arora
+2021-05-05  :  15:04:19  :  Candidate registered successfully by name : Jai Arora and by id : 0
+2021-05-05  :  15:04:23  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:04:23  :  List of all candidates retrieved successfully
+2021-05-05  :  15:04:28  :  Searching by word : jai
+2021-05-05  :  15:04:28  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:04:37  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:04:38  :  Editing user details : Role to HHH ; 
+2021-05-05  :  15:04:38  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:04:39  :  Logs are being accesseed.
+2021-05-05  :  15:04:43  :  Logs are being accesseed.
+2021-05-05  :  15:04:53  :  Logs are being accesseed.
+2021-05-05  :  15:05:40  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:05:40  :  List of all candidates retrieved successfully
+2021-05-05  :  15:05:41  :  Logs are being accesseed.
+2021-05-05  :  15:05:42  :  Logs are being accesseed.
+2021-05-05  :  15:06:22  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:06:22  :  List of all candidates retrieved successfully
+2021-05-05  :  15:06:50  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:06:50  :  List of all candidates retrieved successfully
+2021-05-05  :  15:06:56  :  Searching by word : jai
+2021-05-05  :  15:06:56  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:07:02  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:07:02  :  Editing user details : Feedback to Average ; 
+2021-05-05  :  15:07:02  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:07:04  :  Logs are being accesseed.
+2021-05-05  :  15:07:07  :  Logs are being accesseed.
+2021-05-05  :  15:08:50  :  Logs are being accesseed.
+2021-05-05  :  15:08:52  :  Logs are being accesseed.
+2021-05-05  :  15:10:56  :  Logs are being accesseed.
+2021-05-05  :  15:10:59  :  Logs are being accesseed.
+2021-05-05  :  15:11:02  :  Logs are being accesseed.
+2021-05-05  :  15:11:05  :  Logs are being accesseed.
+2021-05-05  :  15:11:07  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:11:07  :  List of all candidates retrieved successfully
+2021-05-05  :  15:11:08  :  Logs are being accesseed.
+2021-05-05  :  15:11:14  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:11:14  :  List of all candidates retrieved successfully
+2021-05-05  :  15:11:15  :  Logs are being accesseed.
+2021-05-05  :  15:11:54  :  Logs are being accesseed.
+2021-05-05  :  15:11:57  :  Logs are being accesseed.
+2021-05-05  :  15:11:58  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:11:58  :  List of all candidates retrieved successfully
+2021-05-05  :  15:11:58  :  Logs are being accesseed.
+2021-05-05  :  15:12:00  :  Logs are being accesseed.
+2021-05-05  :  15:12:04  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:12:04  :  List of all candidates retrieved successfully
+2021-05-05  :  15:12:05  :  Logs are being accesseed.
+2021-05-05  :  15:12:09  :  User by id : 110345525782083112050 is logging out
+2021-05-05  :  15:12:09  :  Logged Out Successfully.
+2021-05-05  :  15:12:19  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  15:12:20  :  Jai Arora successfully Signed In
+2021-05-05  :  15:12:22  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:12:22  :  List of all candidates retrieved successfully
+2021-05-05  :  15:12:24  :  Logs are being accesseed.
+2021-05-05  :  15:12:54  :  Logs are being accesseed.
+2021-05-05  :  15:13:00  :  Logs are being accesseed.
+2021-05-05  :  15:13:09  :  Logs are being accesseed.
+2021-05-05  :  15:13:16  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:13:16  :  List of all candidates retrieved successfully
+2021-05-05  :  15:13:21  :  Searching by word : jai
+2021-05-05  :  15:13:21  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:13:27  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:13:27  :  Editing user details : contact to 0000000000 ; 
+2021-05-05  :  15:13:27  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:13:32  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:13:32  :  List of all candidates retrieved successfully
+2021-05-05  :  15:13:36  :  Logs are being accesseed.
+2021-05-05  :  15:16:19  :  Logs are being accesseed.
+2021-05-05  :  15:16:37  :  Logs are being accesseed.
+2021-05-05  :  15:17:41  :  Logs are being accesseed.
+2021-05-05  :  15:17:46  :  User by id : 110345525782083112050 is logging out
+2021-05-05  :  15:17:46  :  Logged Out Successfully.
+2021-05-05  :  15:17:51  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  15:17:51  :  Jai Arora successfully Signed In
+2021-05-05  :  15:22:12  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:22:12  :  List of all candidates retrieved successfully
+2021-05-05  :  15:22:17  :  Searching by word : jai
+2021-05-05  :  15:22:17  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:22:48  :  Logs are being accesseed.
+2021-05-05  :  15:22:51  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:22:51  :  List of all candidates retrieved successfully
+2021-05-05  :  15:23:00  :  Searching by word : jai
+2021-05-05  :  15:23:00  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:23:08  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:23:08  :  Editing user details : contact to 0088888999 ; 
+2021-05-05  :  15:23:08  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:23:10  :  Logs are being accesseed.
+2021-05-05  :  15:23:33  :  Logs are being accesseed.
+2021-05-05  :  15:24:47  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:24:47  :  List of all candidates retrieved successfully
+2021-05-05  :  15:24:58  :  Searching by word : jai
+2021-05-05  :  15:24:58  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:25:06  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:25:06  :  Editing user details : 
+2021-05-05  :  15:25:06  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:26:16  :  Searching by word : jai
+2021-05-05  :  15:26:16  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:26:26  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:26:26  :  Editing user details : Feedback to Poor ; 
+2021-05-05  :  15:26:26  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:26:43  :  Logs are being accesseed.
+2021-05-05  :  15:27:33  :  Logs are being accesseed.
+2021-05-05  :  15:27:44  :  Logs are being accesseed.
+2021-05-05  :  15:27:51  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:27:51  :  List of all candidates retrieved successfully
+2021-05-05  :  15:27:57  :  Searching by word : jai
+2021-05-05  :  15:27:57  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:28:03  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:28:03  :  Editing user details : Feedback to Worse ; 
+2021-05-05  :  15:28:03  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:28:17  :  Logs are being accesseed.
+2021-05-05  :  15:28:50  :  Logs are being accesseed.
+2021-05-05  :  15:29:04  :  Logs are being accesseed.
+2021-05-05  :  15:30:05  :  Logs are being accesseed.
+2021-05-05  :  15:32:13  :  Logs are being accesseed.
+2021-05-05  :  15:33:18  :  Logs are being accesseed.
+2021-05-05  :  15:33:28  :  Logs are being accesseed.
+2021-05-05  :  15:34:01  :  Logs are being accesseed.
+2021-05-05  :  15:34:40  :  Logs are being accesseed.
+2021-05-05  :  15:34:43  :  Logs are being accesseed.
+2021-05-05  :  15:35:17  :  Logs are being accesseed.
+2021-05-05  :  15:35:24  :  Logs are being accesseed.
+2021-05-05  :  15:36:36  :  Logs are being accesseed.
+2021-05-05  :  15:37:30  :  Logs are being accesseed.
+2021-05-05  :  15:38:06  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:38:06  :  List of all candidates retrieved successfully
+2021-05-05  :  15:38:07  :  Logs are being accesseed.
+2021-05-05  :  15:38:32  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:38:32  :  List of all candidates retrieved successfully
+2021-05-05  :  15:38:46  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:38:46  :  List of all candidates retrieved successfully
+2021-05-05  :  15:48:53  :  Logs are being accesseed.
+2021-05-05  :  15:49:49  :  User by id : 110345525782083112050 is logging out
+2021-05-05  :  15:49:49  :  Logged Out Successfully.
+2021-05-05  :  15:50:09  :  Application shutdown requested.
+2021-05-05  :  15:50:09  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  15:50:09  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  15:50:09  :  HikariPool-1 - Shutdown completed.

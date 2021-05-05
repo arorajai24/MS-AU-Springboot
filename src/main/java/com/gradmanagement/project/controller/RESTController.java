@@ -189,4 +189,17 @@ public class RESTController {
 		userdao.saveLogs(str);
 		return "success log";
 	}
+	
+	@GetMapping("/dashboard/logs")
+	@CrossOrigin
+	public Iterable<String> retrieveLogs(@RequestHeader String id, @RequestHeader String authorization) throws IOException
+	{
+		if(api.authenticate(id, authorization))
+		{
+			logger.info("Logs are being accesseed.");
+			return userdao.retrieveLogs();
+		}	
+		logger.info("Access denied of using logs.");
+		return null;
+	}
 }
