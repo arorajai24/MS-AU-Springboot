@@ -29,7 +29,7 @@ public class authUserDAO {
 		String sql = "SELECT * FROM authuser WHERE id=?";
 		@SuppressWarnings("deprecation")
 		Iterable<AuthUser> list = jdbcobj.query(sql, new Object[]{authUser.getId()}, BeanPropertyRowMapper.newInstance(AuthUser.class));
-		if(list==null)
+		if(!list.iterator().hasNext())
 		{
 			SimpleJdbcInsert insertActor = new SimpleJdbcInsert(jdbcobj);
 			insertActor.withTableName("authuser").usingColumns("id", "email", "name", "authToken");

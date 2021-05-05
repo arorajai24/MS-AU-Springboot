@@ -1,0 +1,1404 @@
+2021-05-05  :  01:17:27  :  Application shutdown requested.
+2021-05-05  :  01:17:27  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  01:17:29  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 6336 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  01:17:29  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  01:17:30  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  01:17:30  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  01:17:30  :  Starting service [Tomcat]
+2021-05-05  :  01:17:30  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  01:17:31  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  01:17:31  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  01:17:31  :  Root WebApplicationContext: initialization completed in 1373 ms
+2021-05-05  :  01:17:31  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  01:17:31  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  01:17:31  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  01:17:31  :  Started ManagementPortalApplication in 2.401 seconds (JVM running for 2.879)
+2021-05-05  :  01:17:31  :  Application started
+2021-05-05  :  01:27:39  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  01:27:39  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  01:27:39  :  Completed initialization in 2 ms
+2021-05-05  :  01:27:39  :  HikariPool-1 - Starting...
+2021-05-05  :  01:27:39  :  HikariPool-1 - Start completed.
+2021-05-05  :  01:27:39  :  Registering Candidate by name :  
+2021-05-05  :  01:27:40  :  Candidate registered successfully by name :   and by id : 0
+2021-05-05  :  01:29:24  :  Retrieving List of Candidates(View All)
+2021-05-05  :  01:29:24  :  List of all candidates retrieved successfully
+2021-05-05  :  01:29:27  :  Deleting Candidate of ID : 4
+2021-05-05  :  01:29:27  :  Candidate deleted successfully with id : 4
+2021-05-05  :  01:29:27  :  Retrieving List of Candidates(View All)
+2021-05-05  :  01:29:27  :  List of all candidates retrieved successfully
+2021-05-05  :  01:29:33  :  Deleting Candidate of ID : 5
+2021-05-05  :  01:29:33  :  Candidate deleted successfully with id : 5
+2021-05-05  :  01:29:34  :  Retrieving List of Candidates(View All)
+2021-05-05  :  01:29:34  :  List of all candidates retrieved successfully
+2021-05-05  :  01:29:38  :  Retrieving List of Candidates(View All)
+2021-05-05  :  01:29:38  :  List of all candidates retrieved successfully
+2021-05-05  :  01:30:12  :  Retrieving List of Candidates(View All)
+2021-05-05  :  01:30:12  :  List of all candidates retrieved successfully
+2021-05-05  :  01:30:25  :  Retrieving List of Candidates(View All)
+2021-05-05  :  01:30:25  :  List of all candidates retrieved successfully
+2021-05-05  :  01:30:47  :  Registering Candidate by name : Jai Arora
+2021-05-05  :  01:30:48  :  Candidate registered successfully by name : Jai Arora and by id : 0
+2021-05-05  :  01:34:07  :  Retrieving List of Candidates(View All)
+2021-05-05  :  01:34:08  :  List of all candidates retrieved successfully
+2021-05-05  :  01:34:11  :  Retrieving List of Candidates(View All)
+2021-05-05  :  01:34:11  :  List of all candidates retrieved successfully
+2021-05-05  :  02:13:29  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 152 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  02:13:29  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  02:13:32  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  02:13:32  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  02:13:32  :  Starting service [Tomcat]
+2021-05-05  :  02:13:32  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  02:13:32  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  02:13:32  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  02:13:32  :  Root WebApplicationContext: initialization completed in 2869 ms
+2021-05-05  :  02:13:33  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  02:13:33  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  02:13:33  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  02:13:33  :  Started ManagementPortalApplication in 5.429 seconds (JVM running for 6.947)
+2021-05-05  :  02:13:33  :  Application started
+2021-05-05  :  02:20:26  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  02:20:26  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  02:20:26  :  Completed initialization in 1 ms
+2021-05-05  :  02:20:26  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  02:20:26  :  HikariPool-1 - Starting...
+2021-05-05  :  02:20:27  :  HikariPool-1 - Start completed.
+2021-05-05  :  02:20:27  :  Jai Arora successfully Signed In
+2021-05-05  :  02:21:02  :  Retrieving List of Candidates(View All)
+2021-05-05  :  02:21:02  :  List of all candidates retrieved successfully
+2021-05-05  :  02:21:19  :  Registering Candidate by name : Jai Arora
+2021-05-05  :  02:21:20  :  Candidate registered successfully by name : Jai Arora and by id : 0
+2021-05-05  :  02:34:36  :  Retrieving List of Candidates(View All)
+2021-05-05  :  02:34:36  :  List of all candidates retrieved successfully
+2021-05-05  :  02:35:52  :  Retrieving List of Candidates(View All)
+2021-05-05  :  02:35:52  :  List of all candidates retrieved successfully
+2021-05-05  :  02:36:26  :  Retrieving List of Candidates(View All)
+2021-05-05  :  02:36:27  :  List of all candidates retrieved successfully
+2021-05-05  :  02:41:34  :  Retrieving List of Candidates(View All)
+2021-05-05  :  02:41:34  :  List of all candidates retrieved successfully
+2021-05-05  :  02:44:27  :  Retrieving List of Candidates(View All)
+2021-05-05  :  02:44:27  :  List of all candidates retrieved successfully
+2021-05-05  :  02:44:56  :  Retrieving List of Candidates(View All)
+2021-05-05  :  02:44:56  :  List of all candidates retrieved successfully
+2021-05-05  :  02:59:02  :  Retrieving List of Candidates(View All)
+2021-05-05  :  02:59:02  :  List of all candidates retrieved successfully
+2021-05-05  :  03:04:13  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:04:13  :  List of all candidates retrieved successfully
+2021-05-05  :  03:04:20  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:04:20  :  List of all candidates retrieved successfully
+2021-05-05  :  03:04:39  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:04:39  :  List of all candidates retrieved successfully
+2021-05-05  :  03:04:56  :  Application shutdown requested.
+2021-05-05  :  03:04:56  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:04:56  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  03:04:56  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  03:04:59  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 7396 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  03:04:59  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  03:04:59  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  03:04:59  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:04:59  :  Starting service [Tomcat]
+2021-05-05  :  03:04:59  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  03:05:00  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  03:05:00  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  03:05:00  :  Root WebApplicationContext: initialization completed in 818 ms
+2021-05-05  :  03:05:00  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:05:00  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:05:00  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  03:05:00  :  Started ManagementPortalApplication in 1.542 seconds (JVM running for 2.092)
+2021-05-05  :  03:05:00  :  Application started
+2021-05-05  :  03:05:24  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  03:05:24  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  03:05:24  :  Completed initialization in 0 ms
+2021-05-05  :  03:05:24  :  HikariPool-1 - Starting...
+2021-05-05  :  03:05:24  :  HikariPool-1 - Start completed.
+2021-05-05  :  03:05:24  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:05:24  :  List of all candidates retrieved successfully
+2021-05-05  :  03:05:39  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:05:39  :  List of all candidates retrieved successfully
+2021-05-05  :  03:05:57  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:05:57  :  List of all candidates retrieved successfully
+2021-05-05  :  03:07:42  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:07:42  :  List of all candidates retrieved successfully
+2021-05-05  :  03:07:46  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:07:46  :  List of all candidates retrieved successfully
+2021-05-05  :  03:08:01  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:08:01  :  List of all candidates retrieved successfully
+2021-05-05  :  03:08:05  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:08:05  :  List of all candidates retrieved successfully
+2021-05-05  :  03:08:38  :  Application shutdown requested.
+2021-05-05  :  03:08:39  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:08:39  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  03:08:39  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  03:08:41  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 6012 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  03:08:41  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  03:08:42  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  03:08:42  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:08:42  :  Starting service [Tomcat]
+2021-05-05  :  03:08:42  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  03:08:42  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  03:08:42  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  03:08:42  :  Root WebApplicationContext: initialization completed in 807 ms
+2021-05-05  :  03:08:42  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:08:42  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:08:42  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  03:08:42  :  Started ManagementPortalApplication in 1.519 seconds (JVM running for 2.051)
+2021-05-05  :  03:08:43  :  Application started
+2021-05-05  :  03:08:46  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  03:08:46  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  03:08:46  :  Completed initialization in 1 ms
+2021-05-05  :  03:08:46  :  HikariPool-1 - Starting...
+2021-05-05  :  03:08:46  :  HikariPool-1 - Start completed.
+2021-05-05  :  03:08:46  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:08:46  :  List of all candidates retrieved successfully
+2021-05-05  :  03:10:29  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:10:29  :  List of all candidates retrieved successfully
+2021-05-05  :  03:12:05  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:12:05  :  List of all candidates retrieved successfully
+2021-05-05  :  03:12:52  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:12:52  :  List of all candidates retrieved successfully
+2021-05-05  :  03:13:18  :  Application shutdown requested.
+2021-05-05  :  03:13:18  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:13:18  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  03:13:18  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  03:13:21  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 3828 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  03:13:21  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  03:13:21  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  03:13:21  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:13:21  :  Starting service [Tomcat]
+2021-05-05  :  03:13:21  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  03:13:21  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  03:13:21  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  03:13:21  :  Root WebApplicationContext: initialization completed in 815 ms
+2021-05-05  :  03:13:22  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:13:22  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:13:22  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  03:13:22  :  Started ManagementPortalApplication in 1.556 seconds (JVM running for 2.08)
+2021-05-05  :  03:13:22  :  Application started
+2021-05-05  :  03:13:25  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  03:13:25  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  03:13:25  :  Completed initialization in 1 ms
+2021-05-05  :  03:13:25  :  HikariPool-1 - Starting...
+2021-05-05  :  03:13:26  :  HikariPool-1 - Start completed.
+2021-05-05  :  03:13:26  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:13:26  :  List of all candidates retrieved successfully
+2021-05-05  :  03:14:26  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:14:26  :  List of all candidates retrieved successfully
+2021-05-05  :  03:15:36  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:15:36  :  List of all candidates retrieved successfully
+2021-05-05  :  03:15:38  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:15:38  :  List of all candidates retrieved successfully
+2021-05-05  :  03:15:55  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:15:55  :  List of all candidates retrieved successfully
+2021-05-05  :  03:15:57  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:15:57  :  List of all candidates retrieved successfully
+2021-05-05  :  03:24:20  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:24:20  :  List of all candidates retrieved successfully
+2021-05-05  :  03:24:43  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:24:43  :  List of all candidates retrieved successfully
+2021-05-05  :  03:26:58  :  Application shutdown requested.
+2021-05-05  :  03:26:58  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:26:58  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  03:26:58  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  03:27:00  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 1684 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  03:27:00  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  03:27:01  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  03:27:01  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:27:01  :  Starting service [Tomcat]
+2021-05-05  :  03:27:01  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  03:27:01  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  03:27:01  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  03:27:01  :  Root WebApplicationContext: initialization completed in 770 ms
+2021-05-05  :  03:27:01  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:27:02  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:27:02  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  03:27:02  :  Started ManagementPortalApplication in 1.464 seconds (JVM running for 2.005)
+2021-05-05  :  03:27:02  :  Application started
+2021-05-05  :  03:27:06  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  03:27:06  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  03:27:06  :  Completed initialization in 1 ms
+2021-05-05  :  03:27:06  :  HikariPool-1 - Starting...
+2021-05-05  :  03:27:07  :  HikariPool-1 - Start completed.
+2021-05-05  :  03:27:07  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:27:07  :  List of all candidates retrieved successfully
+2021-05-05  :  03:28:43  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:28:43  :  List of all candidates retrieved successfully
+2021-05-05  :  03:32:02  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:32:02  :  List of all candidates retrieved successfully
+2021-05-05  :  03:32:27  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:32:27  :  List of all candidates retrieved successfully
+2021-05-05  :  03:35:32  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:35:32  :  List of all candidates retrieved successfully
+2021-05-05  :  03:40:17  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:40:17  :  List of all candidates retrieved successfully
+2021-05-05  :  03:43:12  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:43:12  :  List of all candidates retrieved successfully
+2021-05-05  :  03:43:20  :  Searching by word : jai
+2021-05-05  :  03:43:20  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:43:47  :  Editing candidate by id : 2 and name : Jai Arora
+2021-05-05  :  03:43:47  :  Editing user details : contact to 9910467698 ; address to 69/8 MODEL TOWN ; contact to Poor ; contact to java, SQL, Machine Learning, deep learning, c++, c#, python, Excel ; contact to New Delhi ; 
+2021-05-05  :  03:43:47  :  Edited candidate by id : 2 and by name Jai Arora successfully
+2021-05-05  :  03:43:54  :  Searching by word : jai
+2021-05-05  :  03:43:54  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:47:08  :  Searching by word : jai
+2021-05-05  :  03:47:08  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:47:15  :  Editing candidate by id : 1 and name : Jai Arora
+2021-05-05  :  03:47:15  :  Searching by word : jai
+2021-05-05  :  03:47:15  :  Editing user details : address to 69/8 MODEL TOWN ; contact to SDE ; contact to Worse ; contact to java, springboot, Angular, deep learning ; contact to Chennai ; 
+2021-05-05  :  03:47:15  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:47:15  :  Edited candidate by id : 1 and by name Jai Arora successfully
+2021-05-05  :  03:47:22  :  Searching by word : jai
+2021-05-05  :  03:47:22  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:48:10  :  Searching by word : jai
+2021-05-05  :  03:48:10  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:48:17  :  Editing candidate by id : 1 and name : Jai Arora
+2021-05-05  :  03:48:17  :  Searching by word : jai
+2021-05-05  :  03:48:17  :  Editing user details : address to 69/8 MODEL TOWN ; contact to SDE ; contact to Worse ; contact to java, springboot, Angular, deep learning ; contact to Chennai ; 
+2021-05-05  :  03:48:17  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:48:17  :  Edited candidate by id : 1 and by name Jai Arora successfully
+2021-05-05  :  03:48:19  :  Searching by word : jai
+2021-05-05  :  03:48:19  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:53:48  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:53:48  :  List of all candidates retrieved successfully
+2021-05-05  :  03:54:34  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:54:34  :  List of all candidates retrieved successfully
+2021-05-05  :  03:55:21  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:55:21  :  List of all candidates retrieved successfully
+2021-05-05  :  03:55:22  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:55:22  :  List of all candidates retrieved successfully
+2021-05-05  :  03:55:23  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:55:23  :  List of all candidates retrieved successfully
+2021-05-05  :  03:55:34  :  Application shutdown requested.
+2021-05-05  :  03:55:34  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:55:34  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  03:55:34  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  03:55:36  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 4500 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  03:55:36  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  03:55:37  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  03:55:37  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:55:37  :  Starting service [Tomcat]
+2021-05-05  :  03:55:37  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  03:55:37  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  03:55:37  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  03:55:37  :  Root WebApplicationContext: initialization completed in 766 ms
+2021-05-05  :  03:55:37  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:55:37  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:55:38  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  03:55:38  :  Started ManagementPortalApplication in 1.469 seconds (JVM running for 1.999)
+2021-05-05  :  03:55:38  :  Application started
+2021-05-05  :  03:55:43  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  03:55:43  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  03:55:43  :  Completed initialization in 0 ms
+2021-05-05  :  03:55:43  :  HikariPool-1 - Starting...
+2021-05-05  :  03:55:44  :  HikariPool-1 - Start completed.
+2021-05-05  :  03:55:44  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:55:44  :  List of all candidates retrieved successfully
+2021-05-05  :  03:55:45  :  Retrieving List of Candidates(View All)
+2021-05-05  :  03:55:45  :  List of all candidates retrieved successfully
+2021-05-05  :  03:55:51  :  Searching by word : jai
+2021-05-05  :  03:55:51  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:56:00  :  Editing candidate by id : 1 and name : Jai Arora
+2021-05-05  :  03:56:00  :  Editing user details : contact to 0000000000 ; address to 69/8 MODEL TOWN ; contact to SDE ; contact to java, springboot, Angular, deep learning ; contact to Chennai ; 
+2021-05-05  :  03:56:00  :  Edited candidate by id : 1 and by name Jai Arora successfully
+2021-05-05  :  03:56:07  :  Searching by word : jai
+2021-05-05  :  03:56:07  :  Retrieved a list of possible matches : jai
+2021-05-05  :  03:58:04  :  Application shutdown requested.
+2021-05-05  :  03:58:04  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:58:04  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  03:58:04  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  03:58:06  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 6060 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  03:58:06  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  03:58:07  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  03:58:07  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:58:07  :  Starting service [Tomcat]
+2021-05-05  :  03:58:07  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  03:58:07  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  03:58:07  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  03:58:07  :  Root WebApplicationContext: initialization completed in 795 ms
+2021-05-05  :  03:58:07  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  03:58:07  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  03:58:07  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  03:58:07  :  Started ManagementPortalApplication in 1.511 seconds (JVM running for 2.008)
+2021-05-05  :  03:58:07  :  Application started
+2021-05-05  :  03:58:16  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  03:58:16  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  03:58:16  :  Completed initialization in 1 ms
+2021-05-05  :  03:58:16  :  HikariPool-1 - Starting...
+2021-05-05  :  03:58:16  :  HikariPool-1 - Start completed.
+2021-05-05  :  03:58:26  :  Editing candidate by id : 1 and name : Jai Arora
+2021-05-05  :  03:58:26  :  Editing user details : contact to 0999999999 ; Feedback to Excellent ; 
+2021-05-05  :  03:58:26  :  Edited candidate by id : 1 and by name Jai Arora successfully
+2021-05-05  :  04:00:42  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:00:42  :  List of all candidates retrieved successfully
+2021-05-05  :  04:00:48  :  Searching by word : jai
+2021-05-05  :  04:00:48  :  Retrieved a list of possible matches : jai
+2021-05-05  :  04:00:58  :  Editing candidate by id : 1 and name : Jai Arora
+2021-05-05  :  04:00:58  :  Editing user details : contact to 8736560590 ; 
+2021-05-05  :  04:00:58  :  Edited candidate by id : 1 and by name Jai Arora successfully
+2021-05-05  :  04:01:46  :  User by id : 110345525782083112050 is logging out
+2021-05-05  :  04:01:46  :  Logged Out Successfully.
+2021-05-05  :  04:01:51  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  04:01:52  :  Jai Arora successfully Signed In
+2021-05-05  :  04:02:02  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:02:02  :  List of all candidates retrieved successfully
+2021-05-05  :  04:02:20  :  Searching by word : jai
+2021-05-05  :  04:02:20  :  Retrieved a list of possible matches : jai
+2021-05-05  :  04:02:49  :  Editing candidate by id : 1 and name : Jai Arora
+2021-05-05  :  04:02:49  :  Editing user details : Role to Manager ; 
+2021-05-05  :  04:02:49  :  Edited candidate by id : 1 and by name Jai Arora successfully
+2021-05-05  :  04:03:40  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:03:40  :  List of all candidates retrieved successfully
+2021-05-05  :  04:03:54  :  Searching by word : jai
+2021-05-05  :  04:03:54  :  Retrieved a list of possible matches : jai
+2021-05-05  :  04:04:06  :  Editing candidate by id : 2 and name : Jai Arora
+2021-05-05  :  04:04:06  :  Editing user details : Feedback to Good ; 
+2021-05-05  :  04:04:06  :  Edited candidate by id : 2 and by name Jai Arora successfully
+2021-05-05  :  04:14:54  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:14:54  :  List of all candidates retrieved successfully
+2021-05-05  :  04:15:00  :  Searching by word : jai
+2021-05-05  :  04:15:00  :  Retrieved a list of possible matches : jai
+2021-05-05  :  04:15:16  :  Editing candidate by id : 2 and name : Jai Arora
+2021-05-05  :  04:15:16  :  Editing user details : Role to Executive Director ; Feedback to Poor ; Location to Mumbai ; 
+2021-05-05  :  04:15:16  :  Edited candidate by id : 2 and by name Jai Arora successfully
+2021-05-05  :  04:29:50  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:29:50  :  List of all candidates retrieved successfully
+2021-05-05  :  04:30:03  :  Application shutdown requested.
+2021-05-05  :  04:30:03  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  04:30:03  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  04:30:03  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  04:30:06  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 5564 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  04:30:06  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  04:30:06  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  04:30:06  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  04:30:06  :  Starting service [Tomcat]
+2021-05-05  :  04:30:06  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  04:30:07  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  04:30:07  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  04:30:07  :  Root WebApplicationContext: initialization completed in 772 ms
+2021-05-05  :  04:30:07  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  04:30:07  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  04:30:07  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  04:30:07  :  Started ManagementPortalApplication in 1.455 seconds (JVM running for 1.951)
+2021-05-05  :  04:30:07  :  Application started
+2021-05-05  :  04:30:12  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  04:30:12  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  04:30:12  :  Completed initialization in 0 ms
+2021-05-05  :  04:30:12  :  HikariPool-1 - Starting...
+2021-05-05  :  04:30:13  :  HikariPool-1 - Start completed.
+2021-05-05  :  04:30:13  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:30:13  :  List of all candidates retrieved successfully
+2021-05-05  :  04:30:15  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:30:15  :  List of all candidates retrieved successfully
+2021-05-05  :  04:30:17  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:30:17  :  List of all candidates retrieved successfully
+2021-05-05  :  04:30:21  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:30:21  :  List of all candidates retrieved successfully
+2021-05-05  :  04:30:26  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:30:26  :  List of all candidates retrieved successfully
+2021-05-05  :  04:31:46  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:31:46  :  List of all candidates retrieved successfully
+2021-05-05  :  04:33:11  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:33:11  :  List of all candidates retrieved successfully
+2021-05-05  :  04:33:19  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:33:19  :  List of all candidates retrieved successfully
+2021-05-05  :  04:33:21  :  Deleting Candidate of ID : 1
+2021-05-05  :  04:33:22  :  Retrieving List of Candidates(View All)
+2021-05-05  :  04:33:22  :  List of all candidates retrieved successfully
+2021-05-05  :  04:33:22  :  Candidate deleted successfully with id : 1
+2021-05-05  :  04:34:15  :  Application shutdown requested.
+2021-05-05  :  04:34:15  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  04:34:15  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  04:34:15  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  13:24:31  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 5184 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  13:24:31  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  13:24:32  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  13:24:32  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:24:32  :  Starting service [Tomcat]
+2021-05-05  :  13:24:32  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  13:24:32  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  13:24:32  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  13:24:32  :  Root WebApplicationContext: initialization completed in 1626 ms
+2021-05-05  :  13:24:33  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:24:33  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:24:33  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  13:24:33  :  Started ManagementPortalApplication in 3.242 seconds (JVM running for 4.321)
+2021-05-05  :  13:24:33  :  Application started
+2021-05-05  :  13:24:39  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  13:24:39  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  13:24:39  :  Completed initialization in 0 ms
+2021-05-05  :  13:24:39  :  Logs are being accesseed.
+2021-05-05  :  13:25:00  :  Application shutdown requested.
+2021-05-05  :  13:25:00  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:25:04  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 4272 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  13:25:04  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  13:25:06  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  13:25:06  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:25:06  :  Starting service [Tomcat]
+2021-05-05  :  13:25:06  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  13:25:06  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  13:25:06  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  13:25:06  :  Root WebApplicationContext: initialization completed in 2260 ms
+2021-05-05  :  13:25:06  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:25:07  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:25:07  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  13:25:07  :  Started ManagementPortalApplication in 3.843 seconds (JVM running for 4.832)
+2021-05-05  :  13:25:07  :  Application started
+2021-05-05  :  13:30:31  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  13:30:31  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  13:30:31  :  Completed initialization in 2 ms
+2021-05-05  :  13:30:31  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  13:30:31  :  HikariPool-1 - Starting...
+2021-05-05  :  13:30:31  :  HikariPool-1 - Start completed.
+2021-05-05  :  13:30:32  :  Jai Arora successfully Signed In
+2021-05-05  :  13:30:34  :  Retrieving List of Candidates(View All)
+2021-05-05  :  13:30:35  :  List of all candidates retrieved successfully
+2021-05-05  :  13:30:38  :  Logs are being accesseed.
+2021-05-05  :  13:33:14  :  Logs are being accesseed.
+2021-05-05  :  13:33:17  :  Logs are being accesseed.
+2021-05-05  :  13:33:22  :  Logs are being accesseed.
+2021-05-05  :  13:37:27  :  Application shutdown requested.
+2021-05-05  :  13:37:27  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:37:27  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  13:37:27  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  13:37:31  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 7952 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  13:37:31  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  13:37:32  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  13:37:32  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:37:32  :  Starting service [Tomcat]
+2021-05-05  :  13:37:32  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  13:37:32  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  13:37:32  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  13:37:32  :  Root WebApplicationContext: initialization completed in 1625 ms
+2021-05-05  :  13:37:33  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:37:33  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:37:33  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  13:37:33  :  Started ManagementPortalApplication in 3.057 seconds (JVM running for 3.872)
+2021-05-05  :  13:37:33  :  Application started
+2021-05-05  :  13:37:38  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  13:37:38  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  13:37:38  :  Completed initialization in 0 ms
+2021-05-05  :  13:37:38  :  HikariPool-1 - Starting...
+2021-05-05  :  13:37:38  :  HikariPool-1 - Start completed.
+2021-05-05  :  13:37:38  :  Logs are being accesseed.
+2021-05-05  :  13:57:27  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 8716 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  13:57:27  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  13:57:33  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  13:57:33  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:57:33  :  Starting service [Tomcat]
+2021-05-05  :  13:57:33  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  13:57:34  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  13:57:34  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  13:57:34  :  Root WebApplicationContext: initialization completed in 6372 ms
+2021-05-05  :  13:57:35  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  13:57:35  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  13:57:35  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  13:57:35  :  Started ManagementPortalApplication in 9.12 seconds (JVM running for 10.784)
+2021-05-05  :  13:57:35  :  Application started
+2021-05-05  :  14:19:53  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 6880 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  14:19:53  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  14:19:53  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  14:19:53  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:19:53  :  Starting service [Tomcat]
+2021-05-05  :  14:19:53  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  14:19:53  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  14:19:53  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  14:19:53  :  Root WebApplicationContext: initialization completed in 869 ms
+2021-05-05  :  14:19:54  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:19:54  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:19:54  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  14:19:54  :  Started ManagementPortalApplication in 1.696 seconds (JVM running for 2.548)
+2021-05-05  :  14:19:54  :  Application started
+2021-05-05  :  14:20:12  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  14:20:12  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  14:20:12  :  Completed initialization in 0 ms
+2021-05-05  :  14:20:12  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  14:20:12  :  HikariPool-1 - Starting...
+2021-05-05  :  14:20:12  :  HikariPool-1 - Start completed.
+2021-05-05  :  14:20:13  :  Jai Arora successfully Signed In
+2021-05-05  :  14:20:15  :  Logs are being accesseed.
+2021-05-05  :  14:20:18  :  Retrieving List of Candidates(View All)
+2021-05-05  :  14:20:18  :  List of all candidates retrieved successfully
+2021-05-05  :  14:20:19  :  Logs are being accesseed.
+2021-05-05  :  14:20:50  :  Logs are being accesseed.
+2021-05-05  :  14:21:25  :  Logs are being accesseed.
+2021-05-05  :  14:21:28  :  Logs are being accesseed.
+2021-05-05  :  14:22:13  :  Logs are being accesseed.
+2021-05-05  :  14:22:16  :  Logs are being accesseed.
+2021-05-05  :  14:22:29  :  Logs are being accesseed.
+2021-05-05  :  14:22:37  :  Logs are being accesseed.
+2021-05-05  :  14:22:40  :  Logs are being accesseed.
+2021-05-05  :  14:22:56  :  Logs are being accesseed.
+2021-05-05  :  14:24:31  :  Logs are being accesseed.
+2021-05-05  :  14:24:42  :  Logs are being accesseed.
+2021-05-05  :  14:24:49  :  Logs are being accesseed.
+2021-05-05  :  14:25:12  :  Logs are being accesseed.
+2021-05-05  :  14:25:15  :  Logs are being accesseed.
+2021-05-05  :  14:25:47  :  Logs are being accesseed.
+2021-05-05  :  14:25:53  :  Logs are being accesseed.
+2021-05-05  :  14:27:24  :  Logs are being accesseed.
+2021-05-05  :  14:27:27  :  Logs are being accesseed.
+2021-05-05  :  14:27:50  :  Logs are being accesseed.
+2021-05-05  :  14:29:36  :  Logs are being accesseed.
+2021-05-05  :  14:29:44  :  Logs are being accesseed.
+2021-05-05  :  14:30:21  :  Logs are being accesseed.
+2021-05-05  :  14:30:23  :  Logs are being accesseed.
+2021-05-05  :  14:30:47  :  Logs are being accesseed.
+2021-05-05  :  14:30:53  :  Logs are being accesseed.
+2021-05-05  :  14:31:42  :  Logs are being accesseed.
+2021-05-05  :  14:31:45  :  Logs are being accesseed.
+2021-05-05  :  14:35:38  :  Logs are being accesseed.
+2021-05-05  :  14:35:53  :  Logs are being accesseed.
+2021-05-05  :  14:35:55  :  Logs are being accesseed.
+2021-05-05  :  14:36:42  :  Logs are being accesseed.
+2021-05-05  :  14:36:45  :  Logs are being accesseed.
+2021-05-05  :  14:36:50  :  Logs are being accesseed.
+2021-05-05  :  14:38:14  :  Logs are being accesseed.
+2021-05-05  :  14:38:18  :  Logs are being accesseed.
+2021-05-05  :  14:38:45  :  Logs are being accesseed.
+2021-05-05  :  14:38:49  :  Logs are being accesseed.
+2021-05-05  :  14:41:03  :  Application shutdown requested.
+2021-05-05  :  14:41:03  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:41:03  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  14:41:03  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  14:41:05  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 7012 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  14:41:05  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  14:41:06  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  14:41:06  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:41:06  :  Starting service [Tomcat]
+2021-05-05  :  14:41:06  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  14:41:06  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  14:41:06  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  14:41:06  :  Root WebApplicationContext: initialization completed in 765 ms
+2021-05-05  :  14:41:06  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:41:06  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:41:06  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  14:41:06  :  Started ManagementPortalApplication in 1.445 seconds (JVM running for 1.962)
+2021-05-05  :  14:41:06  :  Application started
+2021-05-05  :  14:41:54  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  14:41:54  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  14:41:54  :  Completed initialization in 1 ms
+2021-05-05  :  14:41:54  :  HikariPool-1 - Starting...
+2021-05-05  :  14:41:54  :  HikariPool-1 - Start completed.
+2021-05-05  :  14:41:55  :  Logs are being accesseed.
+2021-05-05  :  14:42:34  :  Application shutdown requested.
+2021-05-05  :  14:42:34  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:42:34  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  14:42:34  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  14:42:36  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 2524 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  14:42:36  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  14:42:37  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-05  :  14:42:37  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:42:37  :  Starting service [Tomcat]
+2021-05-05  :  14:42:37  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-05  :  14:42:37  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-05  :  14:42:37  :  Initializing Spring embedded WebApplicationContext
+2021-05-05  :  14:42:37  :  Root WebApplicationContext: initialization completed in 813 ms
+2021-05-05  :  14:42:37  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  14:42:38  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-05  :  14:42:38  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-05  :  14:42:38  :  Started ManagementPortalApplication in 1.531 seconds (JVM running for 2.047)
+2021-05-05  :  14:42:38  :  Application started
+2021-05-05  :  14:42:42  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-05  :  14:42:42  :  Initializing Servlet 'dispatcherServlet'
+2021-05-05  :  14:42:42  :  Completed initialization in 1 ms
+2021-05-05  :  14:42:43  :  HikariPool-1 - Starting...
+2021-05-05  :  14:42:43  :  HikariPool-1 - Start completed.
+2021-05-05  :  14:42:43  :  Logs are being accesseed.
+2021-05-05  :  14:43:23  :  Logs are being accesseed.
+2021-05-05  :  14:43:34  :  Logs are being accesseed.
+2021-05-05  :  14:43:37  :  Logs are being accesseed.
+2021-05-05  :  14:43:54  :  Logs are being accesseed.
+2021-05-05  :  14:44:02  :  Logs are being accesseed.
+2021-05-05  :  14:44:45  :  Logs are being accesseed.
+2021-05-05  :  14:44:54  :  Logs are being accesseed.
+2021-05-05  :  14:44:56  :  Logs are being accesseed.
+2021-05-05  :  14:44:57  :  Retrieving List of Candidates(View All)
+2021-05-05  :  14:44:57  :  List of all candidates retrieved successfully
+2021-05-05  :  14:44:58  :  Logs are being accesseed.
+2021-05-05  :  14:45:30  :  Logs are being accesseed.
+2021-05-05  :  14:45:34  :  Retrieving List of Candidates(View All)
+2021-05-05  :  14:45:34  :  List of all candidates retrieved successfully
+2021-05-05  :  14:45:35  :  Logs are being accesseed.
+2021-05-05  :  14:45:43  :  Searching by word : jai
+2021-05-05  :  14:45:43  :  Retrieved a list of possible matches : jai
+2021-05-05  :  14:45:53  :  Editing candidate by id : 2 and name : Jai Arora
+2021-05-05  :  14:45:53  :  Editing user details : Feedback to Average ; 
+2021-05-05  :  14:45:53  :  Edited candidate by id : 2 and by name Jai Arora successfully
+2021-05-05  :  14:45:54  :  Logs are being accesseed.
+2021-05-05  :  14:46:31  :  Logs are being accesseed.
+2021-05-05  :  14:46:37  :  Logs are being accesseed.
+2021-05-05  :  14:49:23  :  Logs are being accesseed.
+2021-05-05  :  14:49:46  :  Logs are being accesseed.
+2021-05-05  :  14:50:01  :  Logs are being accesseed.
+2021-05-05  :  14:50:45  :  Logs are being accesseed.
+2021-05-05  :  14:51:01  :  Logs are being accesseed.
+2021-05-05  :  14:52:01  :  Logs are being accesseed.
+2021-05-05  :  14:52:10  :  Logs are being accesseed.
+2021-05-05  :  14:52:48  :  Logs are being accesseed.
+2021-05-05  :  14:52:53  :  Logs are being accesseed.
+2021-05-05  :  14:53:59  :  Logs are being accesseed.
+2021-05-05  :  14:54:19  :  Logs are being accesseed.
+2021-05-05  :  14:54:27  :  Logs are being accesseed.
+2021-05-05  :  14:55:23  :  Logs are being accesseed.
+2021-05-05  :  14:56:15  :  Logs are being accesseed.
+2021-05-05  :  14:56:24  :  Logs are being accesseed.
+2021-05-05  :  14:56:30  :  Logs are being accesseed.
+2021-05-05  :  14:58:50  :  Logs are being accesseed.
+2021-05-05  :  14:59:05  :  Logs are being accesseed.
+2021-05-05  :  14:59:37  :  Logs are being accesseed.
+2021-05-05  :  15:00:00  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:00:00  :  List of all candidates retrieved successfully
+2021-05-05  :  15:00:01  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:00:01  :  List of all candidates retrieved successfully
+2021-05-05  :  15:00:05  :  Deleting Candidate of ID : 2
+2021-05-05  :  15:00:05  :  Candidate deleted successfully with id : 2
+2021-05-05  :  15:00:05  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:00:05  :  List of all candidates retrieved successfully
+2021-05-05  :  15:00:06  :  Logs are being accesseed.
+2021-05-05  :  15:01:35  :  Logs are being accesseed.
+2021-05-05  :  15:02:09  :  Logs are being accesseed.
+2021-05-05  :  15:02:31  :  Logs are being accesseed.
+2021-05-05  :  15:04:00  :  Logs are being accesseed.
+2021-05-05  :  15:04:18  :  Registering Candidate by name : Jai Arora
+2021-05-05  :  15:04:19  :  Candidate registered successfully by name : Jai Arora and by id : 0
+2021-05-05  :  15:04:23  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:04:23  :  List of all candidates retrieved successfully
+2021-05-05  :  15:04:28  :  Searching by word : jai
+2021-05-05  :  15:04:28  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:04:37  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:04:38  :  Editing user details : Role to HHH ; 
+2021-05-05  :  15:04:38  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:04:39  :  Logs are being accesseed.
+2021-05-05  :  15:04:43  :  Logs are being accesseed.
+2021-05-05  :  15:04:53  :  Logs are being accesseed.
+2021-05-05  :  15:05:40  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:05:40  :  List of all candidates retrieved successfully
+2021-05-05  :  15:05:41  :  Logs are being accesseed.
+2021-05-05  :  15:05:42  :  Logs are being accesseed.
+2021-05-05  :  15:06:22  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:06:22  :  List of all candidates retrieved successfully
+2021-05-05  :  15:06:50  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:06:50  :  List of all candidates retrieved successfully
+2021-05-05  :  15:06:56  :  Searching by word : jai
+2021-05-05  :  15:06:56  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:07:02  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:07:02  :  Editing user details : Feedback to Average ; 
+2021-05-05  :  15:07:02  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:07:04  :  Logs are being accesseed.
+2021-05-05  :  15:07:07  :  Logs are being accesseed.
+2021-05-05  :  15:08:50  :  Logs are being accesseed.
+2021-05-05  :  15:08:52  :  Logs are being accesseed.
+2021-05-05  :  15:10:56  :  Logs are being accesseed.
+2021-05-05  :  15:10:59  :  Logs are being accesseed.
+2021-05-05  :  15:11:02  :  Logs are being accesseed.
+2021-05-05  :  15:11:05  :  Logs are being accesseed.
+2021-05-05  :  15:11:07  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:11:07  :  List of all candidates retrieved successfully
+2021-05-05  :  15:11:08  :  Logs are being accesseed.
+2021-05-05  :  15:11:14  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:11:14  :  List of all candidates retrieved successfully
+2021-05-05  :  15:11:15  :  Logs are being accesseed.
+2021-05-05  :  15:11:54  :  Logs are being accesseed.
+2021-05-05  :  15:11:57  :  Logs are being accesseed.
+2021-05-05  :  15:11:58  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:11:58  :  List of all candidates retrieved successfully
+2021-05-05  :  15:11:58  :  Logs are being accesseed.
+2021-05-05  :  15:12:00  :  Logs are being accesseed.
+2021-05-05  :  15:12:04  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:12:04  :  List of all candidates retrieved successfully
+2021-05-05  :  15:12:05  :  Logs are being accesseed.
+2021-05-05  :  15:12:09  :  User by id : 110345525782083112050 is logging out
+2021-05-05  :  15:12:09  :  Logged Out Successfully.
+2021-05-05  :  15:12:19  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  15:12:20  :  Jai Arora successfully Signed In
+2021-05-05  :  15:12:22  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:12:22  :  List of all candidates retrieved successfully
+2021-05-05  :  15:12:24  :  Logs are being accesseed.
+2021-05-05  :  15:12:54  :  Logs are being accesseed.
+2021-05-05  :  15:13:00  :  Logs are being accesseed.
+2021-05-05  :  15:13:09  :  Logs are being accesseed.
+2021-05-05  :  15:13:16  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:13:16  :  List of all candidates retrieved successfully
+2021-05-05  :  15:13:21  :  Searching by word : jai
+2021-05-05  :  15:13:21  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:13:27  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:13:27  :  Editing user details : contact to 0000000000 ; 
+2021-05-05  :  15:13:27  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:13:32  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:13:32  :  List of all candidates retrieved successfully
+2021-05-05  :  15:13:36  :  Logs are being accesseed.
+2021-05-05  :  15:16:19  :  Logs are being accesseed.
+2021-05-05  :  15:16:37  :  Logs are being accesseed.
+2021-05-05  :  15:17:41  :  Logs are being accesseed.
+2021-05-05  :  15:17:46  :  User by id : 110345525782083112050 is logging out
+2021-05-05  :  15:17:46  :  Logged Out Successfully.
+2021-05-05  :  15:17:51  :  User Jai Arora is signing in as : jai.arora@accolitedigital.com
+2021-05-05  :  15:17:51  :  Jai Arora successfully Signed In
+2021-05-05  :  15:22:12  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:22:12  :  List of all candidates retrieved successfully
+2021-05-05  :  15:22:17  :  Searching by word : jai
+2021-05-05  :  15:22:17  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:22:48  :  Logs are being accesseed.
+2021-05-05  :  15:22:51  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:22:51  :  List of all candidates retrieved successfully
+2021-05-05  :  15:23:00  :  Searching by word : jai
+2021-05-05  :  15:23:00  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:23:08  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:23:08  :  Editing user details : contact to 0088888999 ; 
+2021-05-05  :  15:23:08  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:23:10  :  Logs are being accesseed.
+2021-05-05  :  15:23:33  :  Logs are being accesseed.
+2021-05-05  :  15:24:47  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:24:47  :  List of all candidates retrieved successfully
+2021-05-05  :  15:24:58  :  Searching by word : jai
+2021-05-05  :  15:24:58  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:25:06  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:25:06  :  Editing user details : 
+2021-05-05  :  15:25:06  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:26:16  :  Searching by word : jai
+2021-05-05  :  15:26:16  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:26:26  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:26:26  :  Editing user details : Feedback to Poor ; 
+2021-05-05  :  15:26:26  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:26:43  :  Logs are being accesseed.
+2021-05-05  :  15:27:33  :  Logs are being accesseed.
+2021-05-05  :  15:27:44  :  Logs are being accesseed.
+2021-05-05  :  15:27:51  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:27:51  :  List of all candidates retrieved successfully
+2021-05-05  :  15:27:57  :  Searching by word : jai
+2021-05-05  :  15:27:57  :  Retrieved a list of possible matches : jai
+2021-05-05  :  15:28:03  :  Editing candidate by id : 3 and name : Jai Arora
+2021-05-05  :  15:28:03  :  Editing user details : Feedback to Worse ; 
+2021-05-05  :  15:28:03  :  Edited candidate by id : 3 and by name Jai Arora successfully
+2021-05-05  :  15:28:17  :  Logs are being accesseed.
+2021-05-05  :  15:28:50  :  Logs are being accesseed.
+2021-05-05  :  15:29:04  :  Logs are being accesseed.
+2021-05-05  :  15:30:05  :  Logs are being accesseed.
+2021-05-05  :  15:32:13  :  Logs are being accesseed.
+2021-05-05  :  15:33:18  :  Logs are being accesseed.
+2021-05-05  :  15:33:28  :  Logs are being accesseed.
+2021-05-05  :  15:34:01  :  Logs are being accesseed.
+2021-05-05  :  15:34:40  :  Logs are being accesseed.
+2021-05-05  :  15:34:43  :  Logs are being accesseed.
+2021-05-05  :  15:35:17  :  Logs are being accesseed.
+2021-05-05  :  15:35:24  :  Logs are being accesseed.
+2021-05-05  :  15:36:36  :  Logs are being accesseed.
+2021-05-05  :  15:37:30  :  Logs are being accesseed.
+2021-05-05  :  15:38:06  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:38:06  :  List of all candidates retrieved successfully
+2021-05-05  :  15:38:07  :  Logs are being accesseed.
+2021-05-05  :  15:38:32  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:38:32  :  List of all candidates retrieved successfully
+2021-05-05  :  15:38:46  :  Retrieving List of Candidates(View All)
+2021-05-05  :  15:38:46  :  List of all candidates retrieved successfully
+2021-05-05  :  15:48:53  :  Logs are being accesseed.
+2021-05-05  :  15:49:49  :  User by id : 110345525782083112050 is logging out
+2021-05-05  :  15:49:49  :  Logged Out Successfully.
+2021-05-05  :  15:50:09  :  Application shutdown requested.
+2021-05-05  :  15:50:09  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  15:50:09  :  HikariPool-1 - Shutdown initiated...
+2021-05-05  :  15:50:09  :  HikariPool-1 - Shutdown completed.
+2021-05-05  :  23:20:55  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 5928 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:20:55  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:20:56  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RESTController': Unsatisfied dependency expressed through field 'api'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-05  :  23:20:56  :  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-05  :  23:20:56  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field api in com.gradmanagement.project.controller.RESTController required a bean of type 'com.gradmanagement.project.security.ApiGateway' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.gradmanagement.project.security.ApiGateway' in your configuration.
+
+2021-05-05  :  23:20:56  :  Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@55dfcc6] to prepare test instance [com.gradmanagement.project.controller.RESTControllerTest@23468512]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:110)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:94)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:61)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:84)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RESTController': Unsatisfied dependency expressed through field 'api'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 70 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 90 common frames omitted
+2021-05-05  :  23:25:32  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 532 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:25:32  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:25:32  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RESTController': Unsatisfied dependency expressed through field 'api'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-05  :  23:25:32  :  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-05  :  23:25:32  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field api in com.gradmanagement.project.controller.RESTController required a bean of type 'com.gradmanagement.project.security.ApiGateway' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.gradmanagement.project.security.ApiGateway' in your configuration.
+
+2021-05-05  :  23:25:32  :  Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@55dfcc6] to prepare test instance [com.gradmanagement.project.controller.RESTControllerTest@590765c4]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:110)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:94)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:61)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:84)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RESTController': Unsatisfied dependency expressed through field 'api'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 70 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 90 common frames omitted
+2021-05-05  :  23:27:26  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 5432 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:27:26  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:27:27  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RESTController': Unsatisfied dependency expressed through field 'api'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-05  :  23:27:27  :  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-05  :  23:27:27  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field api in com.gradmanagement.project.controller.RESTController required a bean of type 'com.gradmanagement.project.security.ApiGateway' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.gradmanagement.project.security.ApiGateway' in your configuration.
+
+2021-05-05  :  23:27:27  :  Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@55dfcc6] to prepare test instance [com.gradmanagement.project.controller.RESTControllerTest@58f2466c]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:110)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:94)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:61)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:84)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RESTController': Unsatisfied dependency expressed through field 'api'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 70 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 90 common frames omitted
+2021-05-05  :  23:31:09  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 1916 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:31:09  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:31:09  :  Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RESTController': Unsatisfied dependency expressed through field 'api'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2021-05-05  :  23:31:09  :  
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-05  :  23:31:09  :  
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field api in com.gradmanagement.project.controller.RESTController required a bean of type 'com.gradmanagement.project.security.ApiGateway' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'com.gradmanagement.project.security.ApiGateway' in your configuration.
+
+2021-05-05  :  23:31:09  :  Caught exception while allowing TestExecutionListener [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@55dfcc6] to prepare test instance [com.gradmanagement.project.controller.RESTControllerTest@1859ffda]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:124)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.postProcessFields(MockitoTestExecutionListener.java:110)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.injectFields(MockitoTestExecutionListener.java:94)
+	at org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener.prepareTestInstance(MockitoTestExecutionListener.java:61)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit.jupiter.SpringExtension.postProcessTestInstance(SpringExtension.java:138)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$6(ClassBasedTestDescriptor.java:350)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.executeAndMaskThrowable(ClassBasedTestDescriptor.java:355)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$invokeTestInstancePostProcessors$7(ClassBasedTestDescriptor.java:350)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735)
+	at java.base/java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:734)
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.invokeTestInstancePostProcessors(ClassBasedTestDescriptor.java:349)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$instantiateAndPostProcessTestInstance$4(ClassBasedTestDescriptor.java:270)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.instantiateAndPostProcessTestInstance(ClassBasedTestDescriptor.java:269)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$2(ClassBasedTestDescriptor.java:259)
+	at java.base/java.util.Optional.orElseGet(Optional.java:362)
+	at org.junit.jupiter.engine.descriptor.ClassBasedTestDescriptor.lambda$testInstancesProvider$3(ClassBasedTestDescriptor.java:258)
+	at org.junit.jupiter.engine.execution.TestInstancesProvider.getTestInstances(TestInstancesProvider.java:31)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$prepare$0(TestMethodTestDescriptor.java:101)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:100)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.prepare(TestMethodTestDescriptor.java:65)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$prepare$1(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.prepare(NodeTestTask.java:111)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:79)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:143)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:129)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:137)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:127)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:126)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:84)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:108)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:88)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.lambda$execute$0(EngineExecutionOrchestrator.java:54)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.withInterceptedStreams(EngineExecutionOrchestrator.java:67)
+	at org.junit.platform.launcher.core.EngineExecutionOrchestrator.execute(EngineExecutionOrchestrator.java:52)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:96)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:84)
+	at org.eclipse.jdt.internal.junit5.runner.JUnit5TestReference.run(JUnit5TestReference.java:98)
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:541)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:768)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:464)
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'RESTController': Unsatisfied dependency expressed through field 'api'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:660)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:119)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1413)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:601)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:123)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 70 common frames omitted
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'com.gradmanagement.project.security.ApiGateway' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1790)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1346)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.resolveFieldValue(AutowiredAnnotationBeanPostProcessor.java:657)
+	... 90 common frames omitted
+2021-05-05  :  23:31:36  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 2844 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:31:36  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:31:37  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:31:37  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:31:37  :  Initializing Servlet ''
+2021-05-05  :  23:31:37  :  Completed initialization in 1 ms
+2021-05-05  :  23:31:37  :  Started RESTControllerTest in 1.8 seconds (JVM running for 2.584)
+2021-05-05  :  23:31:37  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:32:25  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 5828 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:32:25  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:32:26  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:32:26  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:32:26  :  Initializing Servlet ''
+2021-05-05  :  23:32:26  :  Completed initialization in 1 ms
+2021-05-05  :  23:32:26  :  Started RESTControllerTest in 1.777 seconds (JVM running for 2.629)
+2021-05-05  :  23:32:27  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:33:01  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 5300 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:33:01  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:33:02  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:33:02  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:33:02  :  Initializing Servlet ''
+2021-05-05  :  23:33:02  :  Completed initialization in 0 ms
+2021-05-05  :  23:33:02  :  Started RESTControllerTest in 1.727 seconds (JVM running for 2.512)
+2021-05-05  :  23:33:02  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:35:38  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 5992 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:35:38  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:35:39  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:35:40  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:35:40  :  Initializing Servlet ''
+2021-05-05  :  23:35:40  :  Completed initialization in 1 ms
+2021-05-05  :  23:35:40  :  Started RESTControllerTest in 1.77 seconds (JVM running for 2.605)
+2021-05-05  :  23:35:40  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:36:32  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 6036 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:36:32  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:36:33  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:36:34  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:36:34  :  Initializing Servlet ''
+2021-05-05  :  23:36:34  :  Completed initialization in 0 ms
+2021-05-05  :  23:36:34  :  Started RESTControllerTest in 1.783 seconds (JVM running for 2.573)
+2021-05-05  :  23:36:34  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:37:24  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 5588 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:37:24  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:37:25  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:37:25  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:37:25  :  Initializing Servlet ''
+2021-05-05  :  23:37:25  :  Completed initialization in 1 ms
+2021-05-05  :  23:37:25  :  Started RESTControllerTest in 1.765 seconds (JVM running for 2.561)
+2021-05-05  :  23:37:25  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:37:56  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 1144 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:37:56  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:37:57  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:37:57  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:37:57  :  Initializing Servlet ''
+2021-05-05  :  23:37:57  :  Completed initialization in 1 ms
+2021-05-05  :  23:37:57  :  Started RESTControllerTest in 1.793 seconds (JVM running for 2.682)
+2021-05-05  :  23:37:57  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:40:39  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 3936 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:40:39  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:40:40  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:40:40  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:40:40  :  Initializing Servlet ''
+2021-05-05  :  23:40:40  :  Completed initialization in 1 ms
+2021-05-05  :  23:40:40  :  Started RESTControllerTest in 1.764 seconds (JVM running for 2.612)
+2021-05-05  :  23:40:41  :  Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'id' for method parameter type String is not present]
+2021-05-05  :  23:40:41  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:41:52  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 3244 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:41:52  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:41:53  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:41:54  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:41:54  :  Initializing Servlet ''
+2021-05-05  :  23:41:54  :  Completed initialization in 1 ms
+2021-05-05  :  23:41:54  :  Started RESTControllerTest in 1.763 seconds (JVM running for 2.565)
+2021-05-05  :  23:41:54  :  Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'id' for method parameter type String is not present]
+2021-05-05  :  23:41:54  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:43:49  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 5236 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:43:49  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:43:50  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:43:51  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:43:51  :  Initializing Servlet ''
+2021-05-05  :  23:43:51  :  Completed initialization in 1 ms
+2021-05-05  :  23:43:51  :  Started RESTControllerTest in 1.831 seconds (JVM running for 2.68)
+2021-05-05  :  23:43:51  :  Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'id' for method parameter type String is not present]
+2021-05-05  :  23:43:51  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:47:26  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 544 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:47:26  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:47:27  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:47:28  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:47:28  :  Initializing Servlet ''
+2021-05-05  :  23:47:28  :  Completed initialization in 1 ms
+2021-05-05  :  23:47:28  :  Started RESTControllerTest in 1.814 seconds (JVM running for 2.677)
+2021-05-05  :  23:47:28  :  Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'id' for method parameter type String is not present]
+2021-05-05  :  23:47:28  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:51:36  :  Starting RESTControllerTest using Java 15.0.2 on Jai-System with PID 6388 (started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-05  :  23:51:36  :  No active profile set, falling back to default profiles: default
+2021-05-05  :  23:51:37  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-05  :  23:51:37  :  Initializing Spring TestDispatcherServlet ''
+2021-05-05  :  23:51:37  :  Initializing Servlet ''
+2021-05-05  :  23:51:37  :  Completed initialization in 1 ms
+2021-05-05  :  23:51:37  :  Started RESTControllerTest in 1.829 seconds (JVM running for 2.687)
+2021-05-05  :  23:51:37  :  Resolved [org.springframework.web.bind.MissingRequestHeaderException: Required request header 'id' for method parameter type String is not present]
+2021-05-05  :  23:51:37  :  Shutting down ExecutorService 'applicationTaskExecutor'

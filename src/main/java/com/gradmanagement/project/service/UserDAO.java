@@ -70,9 +70,9 @@ private JdbcTemplate jdbcobj;
 		
 		SimpleJdbcInsert insertActor2 = new SimpleJdbcInsert(jdbcobj);
 		insertActor2.withTableName("object_string").usingColumns("id","string");
-		BeanPropertySqlParameterSource param2 = new BeanPropertySqlParameterSource(new ObjectString(0, toObjectString(user)));
+		BeanPropertySqlParameterSource param2 = new BeanPropertySqlParameterSource(new ObjectString(user.getId(), toObjectString(user)));
 		insertActor2.execute(param2);
-		logger.info("Candidate registered successfully by name : "+user.getFname()+" "+user.getLname()+" and by id : "+user.getId());
+		logger.info("Candidate registered successfully by name : "+user.getFname()+" "+user.getLname());
 		
 	}
 	

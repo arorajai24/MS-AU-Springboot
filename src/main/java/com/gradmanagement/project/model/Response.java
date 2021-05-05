@@ -3,6 +3,11 @@ package com.gradmanagement.project.model;
 public class Response {
 	String status;
 	String message;
+	
+	public Response() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
 	public String getStatus() {
 		return status;
 	}

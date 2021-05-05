@@ -35,14 +35,7 @@ public class RESTController {
 	private UserDAO userdao;
 	
 	@Autowired
-	ApiGateway api;  // implement authenticate functions...!!
-	
-//	@GetMapping("/")
-//	@ResponseBody
-//	public String home()
-//	{
-//		return "hi...";
-//	}
+	ApiGateway api; 
 	
 	@GetMapping("/allusers")
 	@CrossOrigin
@@ -129,13 +122,13 @@ public class RESTController {
 	
 	@GetMapping("/skillset-trend")
 	@CrossOrigin 
-	public HashMap<String,Integer> skillsetTrend()  // @RequestHeader String id, @RequestHeader String authorization
+	public HashMap<String,Integer> skillsetTrend(@RequestHeader String id, @RequestHeader String authorization)  
 	{
-		//if(api.authenticate(id, authorization))
+		if(api.authenticate(id, authorization))
 		{
 			return userdao.skillMap();
 		}
-		//return null;
+		return null;
 	}
 	
 	@GetMapping("/gradyear-trend")

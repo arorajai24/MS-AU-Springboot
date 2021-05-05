@@ -33,7 +33,7 @@ public class LoginController {
 		logger.info("User " + authUser.getName()+ " is signing in as : "+authUser.getEmail());
 		authuserdao.saveAuthUser(authUser);
 		logger.info(authUser.getName()+" successfully Signed In");
-        return new Response("success","Data Stored");
+        return new Response("Success","Data Stored");
 	}
 	
 	@GetMapping("/removeResponse")
