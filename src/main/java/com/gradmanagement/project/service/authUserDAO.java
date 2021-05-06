@@ -6,10 +6,7 @@ import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.namedparam.BeanPropertySqlParameterSource;
 import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import org.springframework.stereotype.Repository;
-
-import com.gradmanagement.project.controller.RESTController;
 import com.gradmanagement.project.model.AuthUser;
-import com.gradmanagement.project.model.User;
 
 import ch.qos.logback.classic.Logger;
 

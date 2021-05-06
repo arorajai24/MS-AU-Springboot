@@ -21,7 +21,7 @@ public class LoginController {
 	authUserDAO authuserdao;
 	
 	@Autowired
-	ApiGateway api;
+	ApiGateway api; 
 	
 	Logger logger = (Logger) LoggerFactory.getLogger(LoginController.class);
 	
@@ -30,9 +30,8 @@ public class LoginController {
 	@CrossOrigin
 	public Response Savesresponse(@RequestBody AuthUser authUser)
 	{
-		logger.info("User " + authUser.getName()+ " is signing in as : "+authUser.getEmail());
 		authuserdao.saveAuthUser(authUser);
-		logger.info(authUser.getName()+" successfully Signed In");
+		logger.info(authUser.getName() +" (" + authUser.getEmail()+") has successfully Signed In.");
         return new Response("Success","Data Stored");
 	}
 	
@@ -42,14 +41,13 @@ public class LoginController {
 	{
 		if(api.authenticate(id, authorization))
 		{	
-			logger.info("User by id : "+ id +" is logging out");
 			authuserdao.removeResponse(id);
-			logger.info("Logged Out Successfully.");
+			logger.info("User logged Out Successfully.");
         	return new Response("Success","Logged Out");
 		}
 		else
 		{
-			logger.info("Access denied of logging out");
+			logger.info("Unknown Request, can't logout without authentication.");
 			return new Response("Access Denied","Failed");
 		}
 	}

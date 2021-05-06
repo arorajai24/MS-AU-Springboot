@@ -2,12 +2,8 @@ package com.gradmanagement.project.controller;
 
 import java.io.IOException;
 import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
-
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Controller;
 import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -16,9 +12,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestHeader;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 import com.gradmanagement.project.model.User;
 import com.gradmanagement.project.security.ApiGateway;
@@ -43,11 +37,11 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
-			logger.info("Retrieving List of Candidates(View All)");
+			logger.info("Retrieving List of all the candidates.");
 			return userdao.listGrad();
 		}
-		logger.info("Access denied of viewing");
-		return null;
+		logger.info("Access denied to view all.");
+		return null; 
 	}
 	
 	@RequestMapping("/delete-user/{id}")
@@ -56,11 +50,11 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
-			logger.info("Deleting Candidate of ID : " + tmp);
+			logger.info("Deleting Candidate of ID : " + tmp +".");
 			userdao.deleteGrad(tmp);
 			return;
 		}
-		logger.info("Access denied of deleting");
+		logger.info("Access denied to delete.");
 		return;
 	}
 	
@@ -71,11 +65,11 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
-			logger.info("Registering Candidate by name : " + user.getFname()+" "+user.getLname());
+			logger.info("Registering Candidate by name : " + user.getFname()+" "+user.getLname()+".");
 			userdao.registerUser(user);
 			return user.getFname() +" "+ user.getLname() + " has been registered successfully.";
 		}
-		logger.info("Access denied of registering");
+		logger.info("Access denied to registering");
 		return "Access Denied";
 	}
 	
@@ -86,10 +80,10 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
-			logger.info("Searching by word : " + searchVar);
+			logger.info("Retrieving all possible matches for : '" + searchVar+"'.");
 			return userdao.searchBySearchVar(searchVar);
 		}
-		logger.info("Access denied of searching");
+		logger.info("Access denied to searching");
 		return null;
 	}
 	
@@ -112,9 +106,9 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
-			logger.info("Editing candidate by id : " + user.getId()+" and name : "+user.getFname()+" "+user.getLname());
+			logger.info("Editing candidate by id : " + user.getId()+" and name : "+user.getFname()+" "+user.getLname()+".");
 			userdao.editUser(user);
-			return "Record of " + user.getFname() + " is updated successfully.";
+			return "Record of " + user.getFname() + " has been updated successfully.";
 		}
 		logger.info("Access denied of editing candidate");
 		return "Access Denied";
@@ -189,10 +183,10 @@ public class RESTController {
 	{
 		if(api.authenticate(id, authorization))
 		{
-			logger.info("Logs are being accesseed.");
+			logger.info("Logs are being accessed.");
 			return userdao.retrieveLogs();
 		}	
-		logger.info("Access denied of using logs.");
+		logger.info("Access denied to viewing logs.");
 		return null;
 	}
 }

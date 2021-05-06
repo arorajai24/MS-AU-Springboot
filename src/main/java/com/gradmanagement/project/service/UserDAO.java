@@ -10,11 +10,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Map;
-
 import org.springframework.stereotype.Repository;
-
-import com.gradmanagement.project.controller.RESTController;
 import com.gradmanagement.project.model.ObjectString;
 import com.gradmanagement.project.model.User;
 
@@ -42,7 +38,6 @@ private JdbcTemplate jdbcobj;
 	public Iterable<User> listGrad(){   
 		String sql = "SELECT * FROM grads";
 		Iterable<User> list = jdbcobj.query(sql, BeanPropertyRowMapper.newInstance(User.class));
-		logger.info("List of all candidates retrieved successfully");
 		return list;
 	}
 	
@@ -52,7 +47,7 @@ private JdbcTemplate jdbcobj;
 		jdbcobj.update(sql, id);
 		String sql2 = "DELETE FROM object_string WHERE id=?";
 		jdbcobj.update(sql2,id);
-		logger.info("Candidate deleted successfully with id : "+ id);
+		logger.info("Candidate with id : "+ id+" has been deleted successfully.");
 	}
 	
 	public static String toObjectString(User user)
@@ -72,7 +67,6 @@ private JdbcTemplate jdbcobj;
 		insertActor2.withTableName("object_string").usingColumns("id","string");
 		BeanPropertySqlParameterSource param2 = new BeanPropertySqlParameterSource(new ObjectString(user.getId(), toObjectString(user)));
 		insertActor2.execute(param2);
-		logger.info("Candidate registered successfully by name : "+user.getFname()+" "+user.getLname());
 		
 	}
 	
@@ -107,7 +101,7 @@ private JdbcTemplate jdbcobj;
 			str.append("Location to "+ user.getLocation()+" ; ");
 			
 		logger.info(str.toString());
-		logger.info("Edited candidate by id : " + user.getId() + " and by name "+user.getFname() +" "+user.getLname()+" successfully");
+		logger.info("Edited above details of candidate by id : " + user.getId() + " and by name "+user.getFname() +" "+user.getLname()+" successfully");
 	}
 	
 	@SuppressWarnings("deprecation")
@@ -123,7 +117,6 @@ private JdbcTemplate jdbcobj;
 	    {
 	    	ret_list.add(jdbcobj.queryForObject(sql2, new Object[]{list_id.get(i).getId()} ,BeanPropertyRowMapper.newInstance(User.class)));
 	    }
-	    logger.info("Retrieved a list of possible matches : " + searchVar);
 		return ret_list;
 	  }
 	

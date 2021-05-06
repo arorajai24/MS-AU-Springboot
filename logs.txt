@@ -208,3 +208,197 @@ Testing Log Retrieval Service
 Testing Log Retrieval Service
 Testing Log Retrieval Service
 Testing Log Retrieval Service
+Thu May 06 2021 18:19:59 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:20:06 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:20:13 GMT+0530 (India Standard Time) : Jai Arora Signed Out successfully.
+Thu May 06 2021 18:20:19 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:20:27 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:20:34 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:21:54 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:22:54 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:22:59 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:23:01 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:23:03 GMT+0530 (India Standard Time) : Jai Arora Signed Out successfully.
+Thu May 06 2021 18:23:10 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:23:20 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:23:22 GMT+0530 (India Standard Time) : Display of chart : Skillset Among Candidates on Trends Component.
+Thu May 06 2021 18:23:25 GMT+0530 (India Standard Time) : Display of chart : Candidates joined each year on Trends Component.
+Thu May 06 2021 18:23:27 GMT+0530 (India Standard Time) : Display of chart : Joining Location of Grads on Trends Component.
+Thu May 06 2021 18:23:28 GMT+0530 (India Standard Time) : Display of chart : Feedback Vs Candidate on Trends Component.
+Thu May 06 2021 18:23:29 GMT+0530 (India Standard Time) : Display of chart : Role Diversity in Accolite on Trends Component.
+Thu May 06 2021 18:23:33 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:25:14 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:25:14 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:27:29 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:27:29 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:27:31 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:27:31 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:27:50 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:27:51 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:27:56 GMT+0530 (India Standard Time) : Searching database by 'Rick'
+Thu May 06 2021 18:27:56 GMT+0530 (India Standard Time) : Retrieved possible matches for 'Rick'
+Thu May 06 2021 18:28:03 GMT+0530 (India Standard Time) : Searching database by 'Jai'
+Thu May 06 2021 18:28:03 GMT+0530 (India Standard Time) : Retrieved possible matches for 'Jai'
+Thu May 06 2021 18:28:19 GMT+0530 (India Standard Time) : Retrieved possible matches for 'Jai'
+Thu May 06 2021 18:28:19 GMT+0530 (India Standard Time) : Searching database by 'Jai'
+Thu May 06 2021 18:28:26 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:28:41 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:28:46 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:29:48 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:29:48 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:30:08 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:30:08 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:31:04 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:31:04 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:31:15 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:31:15 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:31:20 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:31:20 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:31:27 GMT+0530 (India Standard Time) : Searching database by 'jai'
+Thu May 06 2021 18:31:27 GMT+0530 (India Standard Time) : Retrieved possible matches for 'jai'
+Thu May 06 2021 18:31:32 GMT+0530 (India Standard Time) : Retrieved possible matches for 'Rick'
+Thu May 06 2021 18:31:32 GMT+0530 (India Standard Time) : Searching database by 'Rick'
+Thu May 06 2021 18:31:33 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:32:30 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:32:30 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:33:16 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:33:16 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:35:35 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:35:35 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:35:39 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:35:39 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:35:45 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:36:07 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:36:27 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:36:41 GMT+0530 (India Standard Time) : Display of chart : Skillset Among Candidates on Trends Component.
+Thu May 06 2021 18:36:53 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:36:59 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:38:02 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:38:22 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:38:25 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:38:33 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:38:53 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:38:53 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:38:56 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:38:58 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:38:59 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:39:00 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:39:04 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:39:06 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 18:39:16 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:39:17 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:39:18 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:39:20 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:39:23 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:44:11 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:45:07 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:45:30 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:48:02 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:49:13 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:49:32 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:49:43 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:49:51 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:50:10 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:51:53 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:54:09 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:54:30 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:57:02 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:57:23 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:57:34 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:57:40 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:57:45 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 18:59:56 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:00:18 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:00:27 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:00:30 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:00:42 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:01:11 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:01:40 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:01:53 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:02:00 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:02:47 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:02:57 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:03:15 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:03:57 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:05:14 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:06:00 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:06:17 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:06:47 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 19:06:58 GMT+0530 (India Standard Time) : Display of chart : Skillset Among Candidates on Trends Component.
+Thu May 06 2021 19:07:01 GMT+0530 (India Standard Time) : Display of chart : Candidates joined each year on Trends Component.
+Thu May 06 2021 19:07:03 GMT+0530 (India Standard Time) : Display of chart : Joining Location of Grads on Trends Component.
+Thu May 06 2021 19:07:27 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:07:53 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:08:01 GMT+0530 (India Standard Time) : Display of chart : Performance of Candidate on Trends Component.
+Thu May 06 2021 19:08:02 GMT+0530 (India Standard Time) : Display of chart : Role Diversity in Accolite on Trends Component.
+Thu May 06 2021 19:08:09 GMT+0530 (India Standard Time) : Display of chart : Candidates joined each year on Trends Component.
+Thu May 06 2021 19:08:09 GMT+0530 (India Standard Time) : Display of chart : Skillset Among Candidates on Trends Component.
+Thu May 06 2021 19:08:44 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Thu May 06 2021 19:08:44 GMT+0530 (India Standard Time) : Display of chart : Skillset Among Candidates on Trends Component.
+Thu May 06 2021 19:08:45 GMT+0530 (India Standard Time) : Retrieved list of all candidates. (View All Component)
+Thu May 06 2021 19:08:47 GMT+0530 (India Standard Time) : Display of chart : Skillset Among Candidates on Trends Component.
+Thu May 06 2021 19:08:49 GMT+0530 (India Standard Time) : Display of chart : Candidates joined each year on Trends Component.
+Thu May 06 2021 19:08:50 GMT+0530 (India Standard Time) : Display of chart : Joining Location of Candidates on Trends Component.
+Thu May 06 2021 19:08:51 GMT+0530 (India Standard Time) : Display of chart : Performance of Candidate on Trends Component.
+Thu May 06 2021 19:08:52 GMT+0530 (India Standard Time) : Display of chart : Role Diversity in Accolite on Trends Component.
+Thu May 06 2021 19:13:32 GMT+0530 (India Standard Time) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.
+Jai AroraJai Arora (jai.arora@accolitedigital.com) Signed In successfully.Thu May 06 2021 19:14:21 GMT+0530 (India Standard Time)
+Jai Arora (jai.arora@accolitedigital.com) Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.Thu May 06 2021 19:15:02 GMT+0530 (India Standard Time)
+Jai Arora (jai.arora@accolitedigital.com) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.Thu May 06 2021 19:15:38 GMT+0530 (India Standard Time)
+Jai Arora (jai.arora@accolitedigital.com) : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:16:09 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:21:34 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:22:42 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:22:47 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:23:06 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:23:16 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:23:21 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:24:53 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:26:40 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:29:12 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:29:15 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:29:34 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:30:45 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:31:57 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:32:05 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:34:43 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:34:48 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:36:19 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:36:24 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:36:38 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:36:49 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:37:11 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:39:08 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:40:01 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:44:24 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:45:00 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:46:01 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:46:22 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:47:30 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:47:35 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:48:10 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com : Jai Arora (jai.arora@accolitedigital.com) Signed In successfully. : Thu May 06 2021 19:49:54 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 19:50:33 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 19:50:39 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 19:51:04 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 19:54:07 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 19:54:44 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 19:55:45 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 19:56:40 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 19:57:10 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 19:58:08 GMT+0530 (India Standard Time)
+Testing Log Retrieval Service
+Testing Log Retrieval Service
+jai.arora@accolitedigital.com   ;   Jai Arora Signed Out successfully.   ;   Thu May 06 2021 20:54:31 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 20:55:31 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Thu May 06 2021 20:55:35 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Searching database by 'jai'   ;   Thu May 06 2021 20:56:14 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Retrieved possible matches for 'jai'   ;   Thu May 06 2021 20:56:14 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Thu May 06 2021 20:57:08 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Display of chart : Skillset Among Candidates on Trends Component.   ;   Thu May 06 2021 20:57:25 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Display of chart : Candidates joined each year on Trends Component.   ;   Thu May 06 2021 20:57:34 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Display of chart : Joining Location of Candidates on Trends Component.   ;   Thu May 06 2021 20:57:36 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Display of chart : Performance of Candidate on Trends Component.   ;   Thu May 06 2021 20:57:38 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Display of chart : Role Diversity in Accolite on Trends Component.   ;   Thu May 06 2021 20:57:40 GMT+0530 (India Standard Time)
+jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Thu May 06 2021 20:57:58 GMT+0530 (India Standard Time)
+Testing Log Retrieval Service
+Testing Log Retrieval Service

@@ -3,9 +3,11 @@ package com.gradmanagement.project.controller;
 import static org.junit.jupiter.api.Assertions.*;
 import java.sql.Date;
 import java.util.ArrayList;
-import org.junit.jupiter.api.BeforeEach;
+
+import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mockito;
 import org.skyscreamer.jsonassert.JSONAssert;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,13 +15,13 @@ import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
-import org.springframework.mock.web.MockHttpServletResponse;
 import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
-import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.context.WebApplicationContext;
 import org.springframework.http.MediaType;
 
 import com.gradmanagement.project.model.User;
@@ -32,9 +34,12 @@ import com.gradmanagement.project.service.UserDAO;
 class RESTControllerTest {
 	
 	@Autowired
+	WebApplicationContext webApplicationContext;
+	
+	@Autowired
 	private MockMvc mockMvc;
 
-	@MockBean
+	@InjectMocks
 	private RESTController rest;
 	
 	@MockBean
@@ -42,31 +47,21 @@ class RESTControllerTest {
 	
 	@MockBean
 	private UserDAO userdao;
-	
-	@BeforeEach
+
+	@Before
 	void setUp() throws Exception {
 		DriverManagerDataSource datasource = new DriverManagerDataSource();
 		datasource.setUrl("jdbc:mysql://localhost/gradmanagement?allowPublicKeyRetrieval=true&useSSL=false");
 		datasource.setUsername("root");
 		datasource.setPassword("root");
 		datasource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		userdao = Mockito.spy(new UserDAO(new JdbcTemplate(datasource)));
 		api = new ApiGateway(new JdbcTemplate(datasource));
+		mockMvc = MockMvcBuilders.standaloneSetup(rest).build();
 	}
 	
 	User mockUser1 = new User(2000,"Will","Smith","Male",23,"will.smith@gmail.com","9999667788","street5","Manager",new Date(2019-05-03),"good","NSIT","JAVA","Mumbai"); 
 	User mockUser2 = new User(2001,"Will","Smith","Male",23,"will.smith@gmail.com","9999667788","street5","Manager",new Date(2019-05-03),"good","NSIT","JAVA","Mumbai"); 
 	String templateUserJson = "{\"fname\":\"Will\",\"lname\":\"Smith\",\"gender\":\"Male\",\"fname\":\"Will\",\"age\":\"23\",\"email\":\"will.smith@gmail.com\",\"contact\":\"9999667788\",\"address\":\"street5\",\"role\":\"Manager\",\"date\":\"2019-05-03\",\"fname\":\"Will\",\"institution\":\"NSIT\",\"skillset\":\"JAVA\",\"Location\":\"Mumbai\"}";
-	
-	@Test
-	void testAuthenticate()
-	{
-		String id="1000";
-		String token="Test12345";
-		boolean check = api.authenticate(id, token);
-		System.out.print(check);
-		assertTrue(check);
-	}
 	
 	@Test
 	void testListGrads() throws Exception {  
@@ -75,218 +70,414 @@ class RESTControllerTest {
 		list.add(mockUser1);
 		Iterable<User> mockList = list;
 		
-		Mockito.doReturn(mockList).when(rest).listGrads("1000", "Test12345");
-
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/allusers")
-										.header("id", "1000")
-										.header("authorization", "Test12345")
-										.accept(MediaType.APPLICATION_JSON);
+		Mockito.doReturn(mockList).when(userdao).listGrad();
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
 		
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+			String uri = "/allusers";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+		   
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   System.out.print(content);
+		   
+		   String expected = "[{fname:Will, lname:Smith, gender:Male}]";
 
-		System.out.println(result.getResponse());
-		String expected = "[{fname:Will, lname:Smith, gender:Male}]";
+			JSONAssert.assertEquals(expected, mvcResult.getResponse()
+					.getContentAsString(), false);
 
-		JSONAssert.assertEquals(expected, result.getResponse()
-				.getContentAsString(), false);
+	}
+	
+	@Test
+	void testListGradsElse() throws Exception {  
+		
+		ArrayList<User> list = new ArrayList<User>();
+		list.add(mockUser1);
+		Iterable<User> mockList = list;
+		
+		Mockito.doReturn(mockList).when(userdao).listGrad();
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
+		
+			String uri = "/allusers";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "2000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+		   
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   System.out.print(content);
 
 	}
 
 	@Test
 	void testRegister() throws Exception {
 
-		RequestBuilder requestBuilder = MockMvcRequestBuilders
-				.post("/save-user",mockUser2)
-				.header("id", "1000")
-				.header("authorization", "Test12345")
-				.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-				.contentType(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
+		String uri = "/save-user";
+	   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.post(uri, mockUser1)
+			   .header("id", "1000")
+			   .header("authorization", "Test12345")
+			   .accept(MediaType.APPLICATION_JSON).content(templateUserJson)
+				.contentType(MediaType.APPLICATION_JSON)).andReturn();
 
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-		MockHttpServletResponse response = result.getResponse();
-
-		assertEquals(200, response.getStatus());
+	   int status = mvcResult.getResponse().getStatus();
+	   assertEquals(200, status);
+	   String content = mvcResult.getResponse().getContentAsString();
+	   System.out.print(content);
 
 	}
 	
 	@Test
 	void testRegister2() throws Exception {
 
-		RequestBuilder requestBuilder = MockMvcRequestBuilders
-				.post("/save-user",mockUser2)
-				.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-				.contentType(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
+		String uri = "/save-user";
+	   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.post(uri, mockUser1)
+			   .header("id", "2000")
+			   .header("authorization", "Test12345")
+			   .accept(MediaType.APPLICATION_JSON).content(templateUserJson)
+				.contentType(MediaType.APPLICATION_JSON)).andReturn();
 
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-		MockHttpServletResponse response = result.getResponse();
-
-		assertEquals(400, response.getStatus());
+	   int status = mvcResult.getResponse().getStatus();
+	   assertEquals(200, status);
+	   String content = mvcResult.getResponse().getContentAsString();
+	   System.out.print(content);
 
 	}
 
 	@Test
 	void testDeleteById() throws Exception {
 		int id = 2000;
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/delete-user/"+id)
-										.header("id", "1000")
-										.header("authorization", "Test12345")
-										.accept(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
 		
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-		assertEquals(200, result.getResponse().getStatus());
+		MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get("/delete-user/"+id)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+		
+		int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   System.out.print(content);
+	}
+	
+	@Test
+	void testDeleteById2() throws Exception {
+		int id = 2000;
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
+		
+		MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get("/delete-user/"+id)
+				   .header("id", "2000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+		
+		int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   System.out.print(content);
 	}
 	
 	@Test
 	void testSearchBySearchVar() throws Exception {
 		String searchVar = "Will";
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
 		
-		ArrayList<User> list = new ArrayList<User>();
-		list.add(mockUser1);
-		Iterable<User> mockList = list;
+		MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get("/search/"+searchVar)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 		
-		Mockito.doReturn(mockList).when(rest).searchBySearchVar(searchVar, "1000", "Test12345");
+		int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   System.out.print(content);
 
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/search/"+searchVar)
-										.header("id", "1000")
-										.header("authorization", "Test12345")
-										.accept(MediaType.APPLICATION_JSON);
+	}
+	
+	@Test
+	void testSearchBySearchVar2() throws Exception {
+		String searchVar = "Will";
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
 		
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get("/search/"+searchVar)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+		
+		int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   System.out.print(content);
 
-		System.out.println(result.getResponse());
-		String expected = "[{fname:Will, lname:Smith, gender:Male}]";
-
-		JSONAssert.assertEquals(expected, result.getResponse()
-				.getContentAsString(), false);
 	}
 
 	@Test
 	void testSearchById() throws Exception {
-		
 		int id = 2000;
 		
-		Mockito.doReturn(mockUser1).when(rest).searchById(id,"1000", "Test12345");
+		Mockito.doReturn(mockUser1).when(userdao).findById(id);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
 
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/findById/"+id)
-										.header("id", "1000")
-										.header("authorization", "Test12345")
-										.accept(MediaType.APPLICATION_JSON);
+		MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get("/findById/"+id)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 		
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		 
+	}
+	
+	@Test
+	void testSearchById2() throws Exception {
+		int id = 2000;
+		
+		Mockito.doReturn(mockUser1).when(userdao).findById(id);
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
 
-		System.out.println(result.getResponse());
-		String expected = "{fname:Will, lname:Smith, gender:Male}";
-
-		JSONAssert.assertEquals(expected, result.getResponse()
-				.getContentAsString(), false);
+		MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get("/findById/"+id)
+				   .header("id", "2000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+		
+		int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   System.out.print(content);
+	
 	}
 
 	@Test
 	void testEditUser() throws Exception {		
 
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/edit-user",mockUser1)
-										.header("id", "1000")
-										.header("authorization", "Test12345")
-										.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-										.contentType(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
 		
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		String uri = "/edit-user";
+	   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.post(uri, mockUser1)
+			   .header("id", "1000")
+			   .header("authorization", "Test12345")
+			   .accept(MediaType.APPLICATION_JSON).content(templateUserJson)
+				.contentType(MediaType.APPLICATION_JSON)).andReturn();
 
-		System.out.println(result.getResponse());
-		assertEquals(200, result.getResponse().getStatus());
+	   int status = mvcResult.getResponse().getStatus();
+	   assertEquals(200, status);
+	   String content = mvcResult.getResponse().getContentAsString();
+	   System.out.print(content);
+	}
+	
+	@Test
+	void testEditUser2() throws Exception {		
+
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
+		
+		String uri = "/edit-user";
+	   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.post(uri, mockUser1)
+			   .header("id", "1000")
+			   .header("authorization", "Test12345")
+			   .accept(MediaType.APPLICATION_JSON).content(templateUserJson)
+				.contentType(MediaType.APPLICATION_JSON)).andReturn();
+
+	   int status = mvcResult.getResponse().getStatus();
+	   assertEquals(200, status);
+	   String content = mvcResult.getResponse().getContentAsString();
+	   System.out.print(content);
 	}
 
 	@Test
 	void testSkillsetTrend() throws Exception {
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/skillset-trend")
-				.header("id", "1000")
-				.header("authorization", "Test12345")
-				.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-				.contentType(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
+		String uri = "/skillset-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-		System.out.println(result.getResponse());
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   assertTrue(content.length()!=0);
 	}
 
+	@Test
+	void testSkillsetTrend2() throws Exception {
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
+		String uri = "/skillset-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "2000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+//		   String content = mvcResult.getResponse().getContentAsString();
+//		   assertTrue(content.length()!=0);
+	}
+	
 	@Test
 	void testGradyearTrend() throws Exception {
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/skillset-trend")
-				.header("id", "1000")
-				.header("authorization", "Test12345")
-				.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-				.contentType(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
+		String uri = "/gradyear-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-		System.out.println(result.getResponse());
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   assertTrue(content.length()!=0);
 	}
 
 	@Test
+	void testGradyearTrend2() throws Exception {
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
+		String uri = "/gradyear-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "2000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+//		   String content = mvcResult.getResponse().getContentAsString();
+//		   assertTrue(content.length()!=0);
+	}
+	
+	@Test
 	void testGraddiversityTrend() throws Exception {
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/skillset-trend")
-				.header("id", "1000")
-				.header("authorization", "Test12345")
-				.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-				.contentType(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
+		String uri = "/graddiversity-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   assertTrue(content.length()!=0);
+	}
+	
+	@Test
+	void testGraddiversityTrend2() throws Exception {
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
+		String uri = "/graddiversity-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "2000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 
-		System.out.println(result.getResponse());
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
 	}
 
 	@Test
 	void testGradRolesMap() throws Exception {
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/skillset-trend")
-				.header("id", "1000")
-				.header("authorization", "Test12345")
-				.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-				.contentType(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
+		String uri = "/gradroles-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   assertTrue(content.length()!=0);
+	}
+	
+	@Test
+	void testGradRolesMap2() throws Exception {
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
+		String uri = "/gradroles-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "2000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 
-		System.out.println(result.getResponse());
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
 	}
 
 	@Test
 	void testGradFeedbackMap() throws Exception {
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/skillset-trend")
-				.header("id", "1000")
-				.header("authorization", "Test12345")
-				.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-				.contentType(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
+		String uri = "/gradfeedback-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+		   String content = mvcResult.getResponse().getContentAsString();
+		   assertTrue(content.length()!=0);
+	}
+	
+	@Test
+	void testGradFeedbackMap2() throws Exception {
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
+		String uri = "/gradfeedback-trend";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "2000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
 
-		System.out.println(result.getResponse());
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
 	}
 
 	@Test
 	void testSaveLogs() throws Exception {
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/skillset-trend")
-				.header("id", "1000")
-				.header("authorization", "Test12345")
-				.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-				.contentType(MediaType.APPLICATION_JSON);
+		String str = "logs testing...";
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
+		
+		String uri = "/api/logs";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.post(uri,str)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON).content(templateUserJson)
+					.contentType(MediaType.APPLICATION_JSON)).andReturn();
 
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-		System.out.println(result.getResponse());
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
+	
 	}
 
 	@Test
 	void testRetrieveLogs() throws Exception {
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/skillset-trend")
-				.header("id", "1000")
-				.header("authorization", "Test12345")
-				.accept(MediaType.APPLICATION_JSON).content(templateUserJson)
-				.contentType(MediaType.APPLICATION_JSON);
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(true);
+		
+		String uri = "/dashboard/logs";
+	   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+			   .header("id", "1000")
+			   .header("authorization", "Test12345")
+			   .accept(MediaType.APPLICATION_JSON)).andReturn();
 
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
+	   int status = mvcResult.getResponse().getStatus();
+	   assertEquals(200, status);
+	   
+	}
 
-		System.out.println(result.getResponse());
+	@Test
+	void testRetrieveLogs2() throws Exception {
+		Mockito.when(api.authenticate("2000", "Test12345")).thenReturn(false);
+		
+		String uri = "/dashboard/logs";
+	   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+			   .header("id", "2000")
+			   .header("authorization", "Test12345")
+			   .accept(MediaType.APPLICATION_JSON)).andReturn();
+
+	   int status = mvcResult.getResponse().getStatus();
+	   assertEquals(200, status);
+	   //String content = mvcResult.getResponse().getContentAsString();
+	   //assertTrue(content.length()!=0);
 	}
 
 }

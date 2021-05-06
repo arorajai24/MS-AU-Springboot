@@ -1,12 +1,12 @@
 package com.gradmanagement.project.controller;
 
 import static org.junit.Assert.assertEquals;
-
-import org.junit.jupiter.api.BeforeEach;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.Before;
 import org.junit.jupiter.api.Test;
 import org.junit.runner.RunWith;
+import org.mockito.InjectMocks;
 import org.mockito.Mockito;
-import org.skyscreamer.jsonassert.JSONAssert;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.WebMvcTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
@@ -17,11 +17,11 @@ import org.springframework.security.test.context.support.WithMockUser;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.MvcResult;
-import org.springframework.test.web.servlet.RequestBuilder;
 import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
+import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+import org.springframework.web.context.WebApplicationContext;
 
 import com.gradmanagement.project.model.AuthUser;
-import com.gradmanagement.project.model.Response;
 import com.gradmanagement.project.security.ApiGateway;
 import com.gradmanagement.project.service.authUserDAO;
 
@@ -31,9 +31,12 @@ import com.gradmanagement.project.service.authUserDAO;
 class LoginControllerTest {
 
 	@Autowired
+	WebApplicationContext webApplicationContext;
+	
+	@Autowired
 	private MockMvc mockMvc;
 
-	@MockBean
+	@InjectMocks
 	private LoginController login;
 	
 	@MockBean
@@ -42,15 +45,16 @@ class LoginControllerTest {
 	@MockBean
 	private authUserDAO authuserdao;
 	
-	@BeforeEach
+	@Before
 	void setUp() throws Exception {
 		DriverManagerDataSource datasource = new DriverManagerDataSource();
 		datasource.setUrl("jdbc:mysql://localhost/gradmanagement?allowPublicKeyRetrieval=true&useSSL=false");
 		datasource.setUsername("root");
 		datasource.setPassword("root");
 		datasource.setDriverClassName("com.mysql.cj.jdbc.Driver");
-		authuserdao = Mockito.spy(new authUserDAO(new JdbcTemplate(datasource)));
 		api = new ApiGateway(new JdbcTemplate(datasource));
+		authuserdao = new authUserDAO(new JdbcTemplate(datasource));
+		mockMvc = MockMvcBuilders.standaloneSetup(login).build();
 	}
 	
 	AuthUser authUser = new AuthUser("1200","Rick.morty@example.com","Test","Test12345");
@@ -58,45 +62,44 @@ class LoginControllerTest {
 	
 	@Test
 	void testSavesresponse() throws Exception{
-
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.post("/savesResponse", authUser)
-										.accept(MediaType.APPLICATION_JSON).content(templateAuthUserJson)
-										.contentType(MediaType.APPLICATION_JSON);
 		
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-		assertEquals(200, result.getResponse().getStatus());
+		String uri = "/savesResponse";
+	   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.post(uri,authUser)
+			   .accept(MediaType.APPLICATION_JSON).content(templateAuthUserJson)
+				.contentType(MediaType.APPLICATION_JSON)).andReturn();
+	   
+	   int status = mvcResult.getResponse().getStatus();
+	   assertEquals(200, status);
+	   //String content = mvcResult.getResponse().getContentAsString();
+	   
 	}
 	
 	@Test
 	void testRemoveResponse() throws Exception{
-
-		Response res = new Response("Success","Data Stored");
-
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/removeResponse")
-										.header("id", "1200")
-										.header("authorization", "Test12345")
-										.accept(MediaType.APPLICATION_JSON);
 		
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-		System.out.println(result.getResponse());
-		String expected = "{'Success' , 'Data Stored'}";
-
-		assertEquals(200, result.getResponse().getStatus());
+		Mockito.when(api.authenticate("1200", "Test12345")).thenReturn(true);
+		String uri = "/removeResponse";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "1200")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+		   
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
 	}
 	
 	@Test
 	void testRemoveResponse2() throws Exception{
 
-		RequestBuilder requestBuilder = MockMvcRequestBuilders.get("/removeResponse")
-										.header("id", "1500")
-										.header("authorization", "Test12345")
-										.accept(MediaType.APPLICATION_JSON);
-		
-		MvcResult result = mockMvc.perform(requestBuilder).andReturn();
-
-		assertEquals(200, result.getResponse().getStatus());
+		Mockito.when(api.authenticate("1000", "Test12345")).thenReturn(false);
+		String uri = "/removeResponse";
+		   MvcResult mvcResult = mockMvc.perform(MockMvcRequestBuilders.get(uri)
+				   .header("id", "1000")
+				   .header("authorization", "Test12345")
+				   .accept(MediaType.APPLICATION_JSON)).andReturn();
+		   
+		   int status = mvcResult.getResponse().getStatus();
+		   assertEquals(200, status);
 	}
 
 }
