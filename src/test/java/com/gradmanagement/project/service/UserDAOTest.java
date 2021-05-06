@@ -49,10 +49,17 @@ class UserDAOTest {
 
 	@Test
 	void testEditUser() {
-		int id = 999;
-		User user = userdao.findById(id);
-		user = new User(999,"Rick","Morty","Male",23,"rick.morty@gmail.com","9999667788","street5","SDE",new Date(2019-05-03),"good","NSIT","JAVA, SQL","Chennai");
-		userdao.editUser(user);
+		User user = new User(999,"Rick","Morty","Male",23,"rick.morty@gmail.com","9999667788","street5","Manager",new Date(2019-05-03),"good","NSIT","JAVA","Mumbai");
+		userdao.registerUser(user);
+		int id = user.getId();
+		User newuser = userdao.findById(id);
+		newuser.setRole("Good");
+		newuser.setAddress("street10");
+		newuser.setContact("9999911111");
+		newuser.setLocation("Chennai");
+		newuser.setSkillset("CPP");
+		userdao.editUser(newuser);
+		userdao.deleteGrad(id);
 	}
 	
 	@Test
@@ -110,5 +117,13 @@ class UserDAOTest {
 	{
 		HashMap<String, Integer> map = userdao.gradRolesMap();
 		assertFalse(map.isEmpty());
+	}
+	
+	@Test
+	void testLogGenerator()
+	{
+		User first = new User(1000,"Rick","Morty","Male",23,"rick.morty@gmail.com","9999668888","street10","SDE",new Date(2019-05-03),"worse","NSIT","JAVA, SQL","Chennai");
+		User second = new User(1000,"Rick","Morty","Male",23,"rick.morty@gmail.com","9999667788","street5","Manager",new Date(2019-05-03),"good","DTU","JAVA","Mumbai");
+		assert(userdao.logGenerator(first, second)!="");
 	}
 }

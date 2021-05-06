@@ -7,6 +7,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
@@ -29,7 +30,7 @@ public class UserDAO {
 private JdbcTemplate jdbcobj;
 	
 	Logger logger = (Logger) LoggerFactory.getLogger(UserDAO.class);
-
+	
 	public UserDAO(JdbcTemplate jdbcobj) {
 		super();
 		this.jdbcobj = jdbcobj;
@@ -66,11 +67,11 @@ private JdbcTemplate jdbcobj;
 		SimpleJdbcInsert insertActor2 = new SimpleJdbcInsert(jdbcobj);
 		insertActor2.withTableName("object_string").usingColumns("id","string");
 		BeanPropertySqlParameterSource param2 = new BeanPropertySqlParameterSource(new ObjectString(user.getId(), toObjectString(user)));
-		insertActor2.execute(param2);
-		
+		insertActor2.execute(param2);	
 	}
-	
-	public void editUser(User user)   //
+	static String parser;
+	static boolean check=false;
+	public void editUser(User user)  //
 	{
 		User obj = findById(user.getId());
 		
@@ -84,25 +85,34 @@ private JdbcTemplate jdbcobj;
 		NamedParameterJdbcTemplate template2 = new NamedParameterJdbcTemplate(jdbcobj);
 		template2.update(sql2, param2);
 		
-		StringBuilder str = new StringBuilder();
-		str.append("Editing user details : ");
-		//contact,address,role,feedback,skillset,location
-		if(!obj.getContact().equals(user.getContact()))
-			str.append("contact to "+ user.getContact()+" ; ");
-		if(!obj.getAddress().equals(user.getAddress()))
-			str.append("address to "+ user.getAddress()+" ; ");
-		if(!obj.getRole().equals(user.getRole()))
-			str.append("Role to "+ user.getRole()+" ; ");
-		if(!obj.getFeedback().equals(user.getFeedback()))
-			str.append("Feedback to "+ user.getFeedback()+" ; ");
-		if(!obj.getSkillset().equals(user.getSkillset()))
-			str.append("Skillset to "+ user.getSkillset()+" ; ");
-		if(!obj.getLocation().equals(user.getLocation()))
-			str.append("Location to "+ user.getLocation()+" ; ");
-			
-		logger.info(str.toString());
+		logGenerator(obj,user);
 		logger.info("Edited above details of candidate by id : " + user.getId() + " and by name "+user.getFname() +" "+user.getLname()+" successfully");
 	}
+	
+	public String logGenerator(User obj, User user)
+	{
+		StringBuilder str = new StringBuilder();
+		str.append("Editing of user details : ");
+		//contact,address,role,feedback,skillset,location
+		if(!obj.getContact().equals(user.getContact()))
+			str.append("Contact from "+ obj.getContact()+" to "+ user.getContact()+" : ");
+		if(!obj.getAddress().equals(user.getAddress()))
+			str.append("Address from "+ obj.getAddress()+" to "+ user.getAddress()+" : ");
+		if(!obj.getRole().equals(user.getRole()))
+			str.append("Role from "+ obj.getRole()+" to "+ user.getRole()+" : ");
+		if(!obj.getFeedback().equals(user.getFeedback()))
+			str.append("Feedback from "+ obj.getFeedback()+" to "+ user.getFeedback()+" : ");
+		if(!obj.getSkillset().equals(user.getSkillset()))
+			str.append("Skillset from "+ obj.getSkillset()+" to "+ user.getSkillset()+" :");
+		if(!obj.getLocation().equals(user.getLocation()))
+			str.append("Location from "+ obj.getLocation()+" to "+ user.getLocation()+" : ");
+		logger.info(str.toString() + " in process.");
+		String writeLog = str.toString() + " in process.";
+		parser = writeLog;
+		check = true;
+		return writeLog;
+	}
+	
 	
 	@SuppressWarnings("deprecation")
 	public List<User> searchBySearchVar(String searchVar) {
@@ -219,7 +229,13 @@ private JdbcTemplate jdbcobj;
 	public void saveLogs(String str) throws IOException
 	{
 		BufferedWriter writer = new BufferedWriter(new FileWriter("logs.txt",true));
-	    writer.append(str);
+		if(check)
+		{
+			writer.append("Jai Arora (jai.arora@accolitedigital.com)   ;   "+parser+"   ;   " + new Date());
+		    writer.newLine();
+		    check=false;
+		}
+	    writer.append(str + "   ;   "+ new Date());
 	    writer.newLine();
 	    writer.close();
 	}
