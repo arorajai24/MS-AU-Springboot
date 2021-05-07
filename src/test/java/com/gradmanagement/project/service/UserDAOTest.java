@@ -120,10 +120,10 @@ class UserDAOTest {
 	}
 	
 	@Test
-	void testLogGenerator()
+	void testLogGeneratorForEdit()
 	{
 		User first = new User(1000,"Rick","Morty","Male",23,"rick.morty@gmail.com","9999668888","street10","SDE",new Date(2019-05-03),"worse","NSIT","JAVA, SQL","Chennai");
 		User second = new User(1000,"Rick","Morty","Male",23,"rick.morty@gmail.com","9999667788","street5","Manager",new Date(2019-05-03),"good","DTU","JAVA","Mumbai");
-		assert(userdao.logGenerator(first, second)!="");
+		assert(userdao.logGeneratorForEdit(first, second)!="");
 	}
 }

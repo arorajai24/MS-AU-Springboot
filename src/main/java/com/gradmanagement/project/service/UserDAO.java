@@ -42,7 +42,7 @@ private JdbcTemplate jdbcobj;
 		return list;
 	}
 	
-	public void deleteGrad(int id)   //
+	public void deleteGrad(int id)   
 	{
 		String sql = "DELETE FROM grads WHERE id=?";
 		jdbcobj.update(sql, id);
@@ -57,7 +57,7 @@ private JdbcTemplate jdbcobj;
 	}
 	
 	
-	public void registerUser(User user)  //
+	public void registerUser(User user)  
 	{
 		SimpleJdbcInsert insertActor = new SimpleJdbcInsert(jdbcobj);
 		insertActor.withTableName("grads").usingColumns("id","fname", "lname", "gender", "age", "email", "contact", "address", "role", "date", "feedback", "institution", "skillset", "location");
@@ -69,9 +69,8 @@ private JdbcTemplate jdbcobj;
 		BeanPropertySqlParameterSource param2 = new BeanPropertySqlParameterSource(new ObjectString(user.getId(), toObjectString(user)));
 		insertActor2.execute(param2);	
 	}
-	static String parser;
-	static boolean check=false;
-	public void editUser(User user)  //
+
+	public void editUser(User user)  
 	{
 		User obj = findById(user.getId());
 		
@@ -85,15 +84,14 @@ private JdbcTemplate jdbcobj;
 		NamedParameterJdbcTemplate template2 = new NamedParameterJdbcTemplate(jdbcobj);
 		template2.update(sql2, param2);
 		
-		logGenerator(obj,user);
+		logGeneratorForEdit(obj,user);
 		logger.info("Edited above details of candidate by id : " + user.getId() + " and by name "+user.getFname() +" "+user.getLname()+" successfully");
 	}
 	
-	public String logGenerator(User obj, User user)
+	public String logGeneratorForEdit(User obj, User user)
 	{
 		StringBuilder str = new StringBuilder();
 		str.append("Editing of user details : ");
-		//contact,address,role,feedback,skillset,location
 		if(!obj.getContact().equals(user.getContact()))
 			str.append("Contact from "+ obj.getContact()+" to "+ user.getContact()+" : ");
 		if(!obj.getAddress().equals(user.getAddress()))
@@ -108,8 +106,6 @@ private JdbcTemplate jdbcobj;
 			str.append("Location from "+ obj.getLocation()+" to "+ user.getLocation()+" : ");
 		logger.info(str.toString() + " in process.");
 		String writeLog = str.toString() + " in process.";
-		parser = writeLog;
-		check = true;
 		return writeLog;
 	}
 	
@@ -229,12 +225,6 @@ private JdbcTemplate jdbcobj;
 	public void saveLogs(String str) throws IOException
 	{
 		BufferedWriter writer = new BufferedWriter(new FileWriter("logs.txt",true));
-		if(check)
-		{
-			writer.append(parser+"   ;   " + new Date());
-		    writer.newLine();
-		    check=false;
-		}
 	    writer.append(str + "   ;   "+ new Date());
 	    writer.newLine();
 	    writer.close();
