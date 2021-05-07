@@ -231,7 +231,7 @@ private JdbcTemplate jdbcobj;
 		BufferedWriter writer = new BufferedWriter(new FileWriter("logs.txt",true));
 		if(check)
 		{
-			writer.append("Jai Arora (jai.arora@accolitedigital.com)   ;   "+parser+"   ;   " + new Date());
+			writer.append(parser+"   ;   " + new Date());
 		    writer.newLine();
 		    check=false;
 		}

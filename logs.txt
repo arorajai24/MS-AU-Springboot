@@ -904,3 +904,231 @@ Jai Arora (jai.arora@accolitedigital.com)   ;   Editing of user details : Contac
 Testing Log Retrieval Service   ;   Fri May 07 03:31:10 IST 2021
 Jai Arora (jai.arora@accolitedigital.com)   ;   Editing of user details : Contact from 9999668888 to 9999667788 : Address from street10 to street5 : Role from SDE to Manager : Feedback from worse to good : Skillset from JAVA, SQL to JAVA :Location from Chennai to Mumbai :  in process.   ;   Fri May 07 03:31:58 IST 2021
 Testing Log Retrieval Service   ;   Fri May 07 03:31:58 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Fri May 07 10:21:28 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Fri May 07 10:21:28 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Fri May 07 10:21:32 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Skillset Among Candidates on Trends Component.   ;   Fri May 07 10:21:34 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Skillset Among Candidates on Trends Component.   ;   Fri May 07 10:21:36 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Fri May 07 10:21:39 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Fri May 07 10:22:08 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Fri May 07 10:22:08 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Editing user in database with id : 3   ;   Fri May 07 10:22:26 IST 2021
+Jai Arora (jai.arora@accolitedigital.com)   ;   Editing of user details : Feedback from Good to Average : Location from Hyderabad to Chennai :  in process.   ;   Fri May 07 10:22:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Fri May 07 10:22:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Editing user in database with id : 1003   ;   Fri May 07 10:22:35 IST 2021
+Jai Arora (jai.arora@accolitedigital.com)   ;   Editing of user details : Address from 69/8 MODEL TOWN to 69/8 MODEL TOWN rnbvre :  in process.   ;   Fri May 07 10:22:36 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Fri May 07 10:22:36 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Jai Arora (jai.arora@accolitedigital.com) Signed In successfully.   ;   Fri May 07 10:23:22 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Component)   ;   Fri May 07 10:23:22 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:03:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:03:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:04:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:04:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Jai Arora Signed Out successfully.   ;   Fri May 07 12:04:39 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:04:44 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:04:47 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:04:57 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:04:57 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:05:28 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:05:28 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:05:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:05:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:06:10 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:06:10 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:06:13 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:06:13 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:07:11 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:07:11 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:07:23 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:07:23 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:07:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:07:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:08:56 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:08:56 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:09:18 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:09:18 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:09:27 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:09:27 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:09:54 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:09:54 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:10:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:10:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:10:49 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:10:49 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:12:57 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:12:57 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:13:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:13:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:14:04 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:14:04 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:14:18 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:14:18 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:14:45 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:14:45 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:15:16 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:15:16 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:15:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:15:31 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:15:32 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:16:06 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:16:06 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:16:06 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:16:08 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:16:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:16:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:16:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:16:40 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:16:48 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Skillset Among Candidates on Trends Component.   ;   Fri May 07 12:16:51 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Skillset Among Candidates on Trends Component.   ;   Fri May 07 12:16:55 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Candidates joined each year on Trends Component.   ;   Fri May 07 12:16:56 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Location Analysis of Candidates on Trends Component.   ;   Fri May 07 12:16:58 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Performance Analysis of Candidates on Trends Component.   ;   Fri May 07 12:17:00 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Performance Analysis of Candidates on Trends Component.   ;   Fri May 07 12:17:01 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Role Diversity in Accolite on Trends Component.   ;   Fri May 07 12:17:02 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Jai Arora Signed Out successfully.   ;   Fri May 07 12:17:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:17:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:17:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:18:36 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:18:36 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:18:43 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:18:43 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed Out successfully.   ;   Fri May 07 12:20:24 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:20:34 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:20:34 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:20:37 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:20:37 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Skillset Among Candidates on Trends Component.   ;   Fri May 07 12:20:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:20:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:20:40 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed Out successfully.   ;   Fri May 07 12:22:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:22:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:22:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:22:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:22:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed Out successfully.   ;   Fri May 07 12:22:44 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:22:50 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:22:51 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:22:51 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:22:51 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed Out successfully.   ;   Fri May 07 12:23:01 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:23:14 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:23:14 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:23:15 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:23:15 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed Out successfully.   ;   Fri May 07 12:24:14 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:26:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:26:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:26:28 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Skillset Among Candidates on Trends Component.   ;   Fri May 07 12:26:29 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:26:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:26:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 3 deleted successfully.   ;   Fri May 07 12:26:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:26:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:26:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1001 deleted successfully.   ;   Fri May 07 12:26:40 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:26:41 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:26:41 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1001 deleted successfully.   ;   Fri May 07 12:26:46 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:26:46 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:26:46 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1002 deleted successfully.   ;   Fri May 07 12:26:49 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:26:49 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:26:49 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1003 deleted successfully.   ;   Fri May 07 12:26:51 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:26:51 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:26:51 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:26:53 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:26:55 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User registered by name: Jai Arora.   ;   Fri May 07 12:28:00 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:28:09 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:29:27 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:29:27 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:29:27 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:30:04 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:30:04 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:30:42 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:30:42 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:31:02 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:31:02 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:31:16 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:31:16 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:31:47 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:31:47 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:32:09 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:32:09 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:32:24 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:32:24 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1004 deleted successfully.   ;   Fri May 07 12:32:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:32:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:32:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:33:09 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:33:10 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:33:32 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:34:49 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:35:28 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:35:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:35:32 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Skillset Among Candidates on Trends Component.   ;   Fri May 07 12:35:32 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:35:34 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved possible matches for 'undefined'   ;   Fri May 07 12:35:36 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:35:57 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User registered by name: Jai Arora.   ;   Fri May 07 12:36:42 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:36:42 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:36:42 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:36:47 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User registered by name: Jai Arora.   ;   Fri May 07 12:37:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:37:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:37:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:38:02 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1005 deleted successfully.   ;   Fri May 07 12:38:05 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:38:05 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:38:05 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:39:56 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:39:58 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User registered by name: Jai Arora.   ;   Fri May 07 12:40:13 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:41:49 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:41:49 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:42:17 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:42:21 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:42:22 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:42:24 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1006 deleted successfully.   ;   Fri May 07 12:42:27 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:43:42 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:43:42 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:43:44 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1007 deleted successfully.   ;   Fri May 07 12:43:47 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:43:47 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:44:30 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:44:50 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:45:03 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:45:03 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:45:45 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:45:47 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User registered by name: Jai Arora.   ;   Fri May 07 12:46:04 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:48:07 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:48:07 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:48:09 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User registered by name: Jai Arora.   ;   Fri May 07 12:48:23 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User signed In successfully.   ;   Fri May 07 12:51:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:51:26 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:51:27 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:52:01 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:52:01 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:52:05 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:52:33 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:52:33 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:52:34 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:57:32 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1008 deleted successfully.   ;   Fri May 07 12:57:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:57:35 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:57:36 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Candidate with id : 1009 deleted successfully.   ;   Fri May 07 12:57:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:57:38 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Display of chart : Skillset Among Candidates on Trends Component.   ;   Fri May 07 12:57:39 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 12:57:51 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   User registered by name: Jai Arora.   ;   Fri May 07 12:59:02 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:59:08 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (View All Page)   ;   Fri May 07 12:59:46 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Retrieved list of all candidates. (Search Page)   ;   Fri May 07 12:59:46 IST 2021
+Jai Arora jai.arora@accolitedigital.com   ;   Landed on register candidate page.   ;   Fri May 07 13:00:05 IST 2021

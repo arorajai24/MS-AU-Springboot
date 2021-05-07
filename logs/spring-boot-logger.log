@@ -1060,3 +1060,406 @@
 2021-05-07  :  03:32:56  :  Shutting down ExecutorService 'applicationTaskExecutor'
 2021-05-07  :  03:32:56  :  HikariPool-1 - Shutdown initiated...
 2021-05-07  :  03:32:56  :  HikariPool-1 - Shutdown completed.
+2021-05-07  :  10:20:22  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 5280 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-07  :  10:20:22  :  No active profile set, falling back to default profiles: default
+2021-05-07  :  10:20:22  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-07  :  10:20:22  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-07  :  10:20:22  :  Starting service [Tomcat]
+2021-05-07  :  10:20:22  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-07  :  10:20:23  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-07  :  10:20:23  :  Initializing Spring embedded WebApplicationContext
+2021-05-07  :  10:20:23  :  Root WebApplicationContext: initialization completed in 901 ms
+2021-05-07  :  10:20:23  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-07  :  10:20:23  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-07  :  10:20:23  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-07  :  10:20:23  :  Started ManagementPortalApplication in 1.813 seconds (JVM running for 2.619)
+2021-05-07  :  10:20:23  :  Application started.
+2021-05-07  :  10:21:27  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-07  :  10:21:27  :  Initializing Servlet 'dispatcherServlet'
+2021-05-07  :  10:21:27  :  Completed initialization in 1 ms
+2021-05-07  :  10:21:27  :  HikariPool-1 - Starting...
+2021-05-07  :  10:21:28  :  HikariPool-1 - Start completed.
+2021-05-07  :  10:21:28  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  10:21:28  :  User has been authenticated successfully.
+2021-05-07  :  10:21:28  :  Retrieving List of all the candidates.
+2021-05-07  :  10:21:32  :  User has been authenticated successfully.
+2021-05-07  :  10:21:32  :  Retrieving List of all the candidates.
+2021-05-07  :  10:21:34  :  User has been authenticated successfully.
+2021-05-07  :  10:21:36  :  User has been authenticated successfully.
+2021-05-07  :  10:21:36  :  Logs are being accessed.
+2021-05-07  :  10:21:36  :  User has been authenticated successfully.
+2021-05-07  :  10:21:39  :  User has been authenticated successfully.
+2021-05-07  :  10:21:39  :  Retrieving List of all the candidates.
+2021-05-07  :  10:21:43  :  User has been authenticated successfully.
+2021-05-07  :  10:21:49  :  User has been authenticated successfully.
+2021-05-07  :  10:21:58  :  User has been authenticated successfully.
+2021-05-07  :  10:22:04  :  User has been authenticated successfully.
+2021-05-07  :  10:22:08  :  User has been authenticated successfully.
+2021-05-07  :  10:22:08  :  Retrieving List of all the candidates.
+2021-05-07  :  10:22:08  :  User has been authenticated successfully.
+2021-05-07  :  10:22:08  :  Retrieving List of all the candidates.
+2021-05-07  :  10:22:09  :  User has been authenticated successfully.
+2021-05-07  :  10:22:12  :  User has been authenticated successfully.
+2021-05-07  :  10:22:15  :  User has been authenticated successfully.
+2021-05-07  :  10:22:26  :  User has been authenticated successfully.
+2021-05-07  :  10:22:26  :  Editing candidate by id : 3 and name : Jai Arora.
+2021-05-07  :  10:22:26  :  Editing of user details : Feedback from Good to Average : Location from Hyderabad to Chennai :  in process.
+2021-05-07  :  10:22:26  :  Edited above details of candidate by id : 3 and by name Jai Arora successfully
+2021-05-07  :  10:22:26  :  User has been authenticated successfully.
+2021-05-07  :  10:22:26  :  Retrieving List of all the candidates.
+2021-05-07  :  10:22:31  :  User has been authenticated successfully.
+2021-05-07  :  10:22:35  :  User has been authenticated successfully.
+2021-05-07  :  10:22:35  :  Editing candidate by id : 1003 and name : Jai Arora.
+2021-05-07  :  10:22:35  :  Editing of user details : Address from 69/8 MODEL TOWN to 69/8 MODEL TOWN rnbvre :  in process.
+2021-05-07  :  10:22:35  :  Edited above details of candidate by id : 1003 and by name Jai Arora successfully
+2021-05-07  :  10:22:36  :  User has been authenticated successfully.
+2021-05-07  :  10:22:36  :  Retrieving List of all the candidates.
+2021-05-07  :  10:23:22  :  User has been authenticated successfully.
+2021-05-07  :  10:23:22  :  Retrieving List of all the candidates.
+2021-05-07  :  10:23:24  :  User has been authenticated successfully.
+2021-05-07  :  10:23:41  :  Application shutdown requested.
+2021-05-07  :  10:23:41  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-07  :  10:23:41  :  HikariPool-1 - Shutdown initiated...
+2021-05-07  :  10:23:41  :  HikariPool-1 - Shutdown completed.
+2021-05-07  :  11:53:12  :  Starting ManagementPortalApplication using Java 15.0.2 on Jai-System with PID 1456 (C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal\target\classes started by Jai in C:\Users\Jai\Documents\workspace-spring-tool-suite-4-4.10.0.RELEASE\ManagementPortal)
+2021-05-07  :  11:53:12  :  No active profile set, falling back to default profiles: default
+2021-05-07  :  11:53:13  :  Tomcat initialized with port(s): 8080 (http)
+2021-05-07  :  11:53:13  :  Initializing ProtocolHandler ["http-nio-8080"]
+2021-05-07  :  11:53:13  :  Starting service [Tomcat]
+2021-05-07  :  11:53:13  :  Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-07  :  11:53:13  :  At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2021-05-07  :  11:53:13  :  Initializing Spring embedded WebApplicationContext
+2021-05-07  :  11:53:13  :  Root WebApplicationContext: initialization completed in 978 ms
+2021-05-07  :  11:53:13  :  Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-07  :  11:53:13  :  Starting ProtocolHandler ["http-nio-8080"]
+2021-05-07  :  11:53:13  :  Tomcat started on port(s): 8080 (http) with context path ''
+2021-05-07  :  11:53:13  :  Started ManagementPortalApplication in 2.032 seconds (JVM running for 2.946)
+2021-05-07  :  11:53:13  :  Application started.
+2021-05-07  :  12:03:25  :  Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-07  :  12:03:25  :  Initializing Servlet 'dispatcherServlet'
+2021-05-07  :  12:03:25  :  Completed initialization in 0 ms
+2021-05-07  :  12:03:25  :  HikariPool-1 - Starting...
+2021-05-07  :  12:03:25  :  HikariPool-1 - Start completed.
+2021-05-07  :  12:03:26  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:03:26  :  User has been authenticated successfully.
+2021-05-07  :  12:03:26  :  Retrieving List of all the candidates.
+2021-05-07  :  12:04:35  :  User has been authenticated successfully.
+2021-05-07  :  12:04:35  :  Retrieving List of all the candidates.
+2021-05-07  :  12:04:39  :  User has been authenticated successfully.
+2021-05-07  :  12:04:39  :  User logged Out Successfully.
+2021-05-07  :  12:04:44  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:04:47  :  User has been authenticated successfully.
+2021-05-07  :  12:04:47  :  Retrieving List of all the candidates.
+2021-05-07  :  12:04:57  :  User has been authenticated successfully.
+2021-05-07  :  12:04:57  :  Retrieving List of all the candidates.
+2021-05-07  :  12:05:28  :  User has been authenticated successfully.
+2021-05-07  :  12:05:28  :  Retrieving List of all the candidates.
+2021-05-07  :  12:05:35  :  User has been authenticated successfully.
+2021-05-07  :  12:05:35  :  Retrieving List of all the candidates.
+2021-05-07  :  12:06:10  :  User has been authenticated successfully.
+2021-05-07  :  12:06:10  :  Retrieving List of all the candidates.
+2021-05-07  :  12:06:13  :  User has been authenticated successfully.
+2021-05-07  :  12:06:13  :  Retrieving List of all the candidates.
+2021-05-07  :  12:07:11  :  User has been authenticated successfully.
+2021-05-07  :  12:07:11  :  Retrieving List of all the candidates.
+2021-05-07  :  12:07:23  :  User has been authenticated successfully.
+2021-05-07  :  12:07:23  :  Retrieving List of all the candidates.
+2021-05-07  :  12:07:26  :  User has been authenticated successfully.
+2021-05-07  :  12:07:26  :  Retrieving List of all the candidates.
+2021-05-07  :  12:08:56  :  User has been authenticated successfully.
+2021-05-07  :  12:08:56  :  Retrieving List of all the candidates.
+2021-05-07  :  12:09:18  :  User has been authenticated successfully.
+2021-05-07  :  12:09:18  :  Retrieving List of all the candidates.
+2021-05-07  :  12:09:27  :  User has been authenticated successfully.
+2021-05-07  :  12:09:27  :  Retrieving List of all the candidates.
+2021-05-07  :  12:09:54  :  User has been authenticated successfully.
+2021-05-07  :  12:09:54  :  Retrieving List of all the candidates.
+2021-05-07  :  12:10:38  :  User has been authenticated successfully.
+2021-05-07  :  12:10:38  :  Retrieving List of all the candidates.
+2021-05-07  :  12:10:49  :  User has been authenticated successfully.
+2021-05-07  :  12:10:49  :  Retrieving List of all the candidates.
+2021-05-07  :  12:12:57  :  User has been authenticated successfully.
+2021-05-07  :  12:12:57  :  Retrieving List of all the candidates.
+2021-05-07  :  12:13:38  :  User has been authenticated successfully.
+2021-05-07  :  12:13:38  :  Retrieving List of all the candidates.
+2021-05-07  :  12:14:04  :  User has been authenticated successfully.
+2021-05-07  :  12:14:04  :  Retrieving List of all the candidates.
+2021-05-07  :  12:14:18  :  User has been authenticated successfully.
+2021-05-07  :  12:14:18  :  Retrieving List of all the candidates.
+2021-05-07  :  12:14:45  :  User has been authenticated successfully.
+2021-05-07  :  12:14:45  :  Retrieving List of all the candidates.
+2021-05-07  :  12:15:16  :  User has been authenticated successfully.
+2021-05-07  :  12:15:16  :  Retrieving List of all the candidates.
+2021-05-07  :  12:15:20  :  User has been authenticated successfully.
+2021-05-07  :  12:15:30  :  User has been authenticated successfully.
+2021-05-07  :  12:15:30  :  Retrieving List of all the candidates.
+2021-05-07  :  12:15:31  :  User has been authenticated successfully.
+2021-05-07  :  12:15:31  :  Retrieving List of all the candidates.
+2021-05-07  :  12:15:32  :  User has been authenticated successfully.
+2021-05-07  :  12:15:32  :  Retrieving List of all the candidates.
+2021-05-07  :  12:16:06  :  User has been authenticated successfully.
+2021-05-07  :  12:16:06  :  Retrieving List of all the candidates.
+2021-05-07  :  12:16:06  :  User has been authenticated successfully.
+2021-05-07  :  12:16:06  :  Retrieving List of all the candidates.
+2021-05-07  :  12:16:08  :  User has been authenticated successfully.
+2021-05-07  :  12:16:08  :  Retrieving List of all the candidates.
+2021-05-07  :  12:16:38  :  User has been authenticated successfully.
+2021-05-07  :  12:16:38  :  Retrieving List of all the candidates.
+2021-05-07  :  12:16:38  :  User has been authenticated successfully.
+2021-05-07  :  12:16:38  :  Retrieving List of all the candidates.
+2021-05-07  :  12:16:40  :  User has been authenticated successfully.
+2021-05-07  :  12:16:40  :  Retrieving List of all the candidates.
+2021-05-07  :  12:16:51  :  User has been authenticated successfully.
+2021-05-07  :  12:16:55  :  User has been authenticated successfully.
+2021-05-07  :  12:16:56  :  User has been authenticated successfully.
+2021-05-07  :  12:16:58  :  User has been authenticated successfully.
+2021-05-07  :  12:17:00  :  User has been authenticated successfully.
+2021-05-07  :  12:17:01  :  User has been authenticated successfully.
+2021-05-07  :  12:17:02  :  User has been authenticated successfully.
+2021-05-07  :  12:17:06  :  User has been authenticated successfully.
+2021-05-07  :  12:17:06  :  Logs are being accessed.
+2021-05-07  :  12:17:30  :  User has been authenticated successfully.
+2021-05-07  :  12:17:30  :  User logged Out Successfully.
+2021-05-07  :  12:17:35  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:17:35  :  User has been authenticated successfully.
+2021-05-07  :  12:17:35  :  Retrieving List of all the candidates.
+2021-05-07  :  12:17:37  :  User has been authenticated successfully.
+2021-05-07  :  12:17:37  :  Logs are being accessed.
+2021-05-07  :  12:18:36  :  User has been authenticated successfully.
+2021-05-07  :  12:18:36  :  Logs are being accessed.
+2021-05-07  :  12:18:36  :  User has been authenticated successfully.
+2021-05-07  :  12:18:36  :  Retrieving List of all the candidates.
+2021-05-07  :  12:18:43  :  User has been authenticated successfully.
+2021-05-07  :  12:18:43  :  Retrieving List of all the candidates.
+2021-05-07  :  12:20:24  :  User has been authenticated successfully.
+2021-05-07  :  12:20:24  :  User logged Out Successfully.
+2021-05-07  :  12:20:34  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:20:34  :  User has been authenticated successfully.
+2021-05-07  :  12:20:34  :  Retrieving List of all the candidates.
+2021-05-07  :  12:20:37  :  User has been authenticated successfully.
+2021-05-07  :  12:20:37  :  Retrieving List of all the candidates.
+2021-05-07  :  12:20:38  :  User has been authenticated successfully.
+2021-05-07  :  12:20:38  :  User has been authenticated successfully.
+2021-05-07  :  12:20:38  :  Logs are being accessed.
+2021-05-07  :  12:20:38  :  User has been authenticated successfully.
+2021-05-07  :  12:20:38  :  Retrieving List of all the candidates.
+2021-05-07  :  12:20:40  :  User has been authenticated successfully.
+2021-05-07  :  12:20:40  :  Retrieving List of all the candidates.
+2021-05-07  :  12:22:30  :  User has been authenticated successfully.
+2021-05-07  :  12:22:30  :  User logged Out Successfully.
+2021-05-07  :  12:22:35  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:22:35  :  User has been authenticated successfully.
+2021-05-07  :  12:22:35  :  Retrieving List of all the candidates.
+2021-05-07  :  12:22:38  :  User has been authenticated successfully.
+2021-05-07  :  12:22:38  :  Retrieving List of all the candidates.
+2021-05-07  :  12:22:44  :  User has been authenticated successfully.
+2021-05-07  :  12:22:44  :  User logged Out Successfully.
+2021-05-07  :  12:22:50  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:22:51  :  User has been authenticated successfully.
+2021-05-07  :  12:22:51  :  Retrieving List of all the candidates.
+2021-05-07  :  12:22:51  :  User has been authenticated successfully.
+2021-05-07  :  12:22:51  :  Retrieving List of all the candidates.
+2021-05-07  :  12:23:01  :  User has been authenticated successfully.
+2021-05-07  :  12:23:01  :  User logged Out Successfully.
+2021-05-07  :  12:23:07  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:23:13  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:23:14  :  User has been authenticated successfully.
+2021-05-07  :  12:23:14  :  Retrieving List of all the candidates.
+2021-05-07  :  12:23:15  :  User has been authenticated successfully.
+2021-05-07  :  12:23:15  :  Retrieving List of all the candidates.
+2021-05-07  :  12:24:14  :  User has been authenticated successfully.
+2021-05-07  :  12:24:14  :  User logged Out Successfully.
+2021-05-07  :  12:26:26  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:26:26  :  User has been authenticated successfully.
+2021-05-07  :  12:26:26  :  Retrieving List of all the candidates.
+2021-05-07  :  12:26:28  :  User has been authenticated successfully.
+2021-05-07  :  12:26:28  :  Retrieving List of all the candidates.
+2021-05-07  :  12:26:29  :  User has been authenticated successfully.
+2021-05-07  :  12:26:29  :  User has been authenticated successfully.
+2021-05-07  :  12:26:29  :  Logs are being accessed.
+2021-05-07  :  12:26:30  :  User has been authenticated successfully.
+2021-05-07  :  12:26:30  :  Retrieving List of all the candidates.
+2021-05-07  :  12:26:38  :  User has been authenticated successfully.
+2021-05-07  :  12:26:38  :  Deleting Candidate of ID : 3.
+2021-05-07  :  12:26:38  :  User has been authenticated successfully.
+2021-05-07  :  12:26:38  :  Retrieving List of all the candidates.
+2021-05-07  :  12:26:38  :  Candidate with id : 3 has been deleted successfully.
+2021-05-07  :  12:26:40  :  User has been authenticated successfully.
+2021-05-07  :  12:26:40  :  Deleting Candidate of ID : 1001.
+2021-05-07  :  12:26:41  :  User has been authenticated successfully.
+2021-05-07  :  12:26:41  :  Retrieving List of all the candidates.
+2021-05-07  :  12:26:41  :  Candidate with id : 1001 has been deleted successfully.
+2021-05-07  :  12:26:46  :  User has been authenticated successfully.
+2021-05-07  :  12:26:46  :  Deleting Candidate of ID : 1001.
+2021-05-07  :  12:26:46  :  Candidate with id : 1001 has been deleted successfully.
+2021-05-07  :  12:26:46  :  User has been authenticated successfully.
+2021-05-07  :  12:26:46  :  Retrieving List of all the candidates.
+2021-05-07  :  12:26:49  :  User has been authenticated successfully.
+2021-05-07  :  12:26:49  :  Deleting Candidate of ID : 1002.
+2021-05-07  :  12:26:49  :  User has been authenticated successfully.
+2021-05-07  :  12:26:49  :  Retrieving List of all the candidates.
+2021-05-07  :  12:26:49  :  Candidate with id : 1002 has been deleted successfully.
+2021-05-07  :  12:26:51  :  User has been authenticated successfully.
+2021-05-07  :  12:26:51  :  Deleting Candidate of ID : 1003.
+2021-05-07  :  12:26:51  :  User has been authenticated successfully.
+2021-05-07  :  12:26:51  :  Retrieving List of all the candidates.
+2021-05-07  :  12:26:51  :  Candidate with id : 1003 has been deleted successfully.
+2021-05-07  :  12:26:53  :  User has been authenticated successfully.
+2021-05-07  :  12:26:53  :  Retrieving List of all the candidates.
+2021-05-07  :  12:28:00  :  User has been authenticated successfully.
+2021-05-07  :  12:28:00  :  Registering Candidate by name : Jai Arora.
+2021-05-07  :  12:28:09  :  User has been authenticated successfully.
+2021-05-07  :  12:28:09  :  Retrieving List of all the candidates.
+2021-05-07  :  12:29:27  :  User has been authenticated successfully.
+2021-05-07  :  12:29:27  :  Retrieving List of all the candidates.
+2021-05-07  :  12:29:27  :  User has been authenticated successfully.
+2021-05-07  :  12:29:27  :  Retrieving List of all the candidates.
+2021-05-07  :  12:29:36  :  User has been authenticated successfully.
+2021-05-07  :  12:29:36  :  Logs are being accessed.
+2021-05-07  :  12:30:04  :  User has been authenticated successfully.
+2021-05-07  :  12:30:04  :  Logs are being accessed.
+2021-05-07  :  12:30:04  :  User has been authenticated successfully.
+2021-05-07  :  12:30:04  :  Retrieving List of all the candidates.
+2021-05-07  :  12:30:42  :  User has been authenticated successfully.
+2021-05-07  :  12:30:42  :  Retrieving List of all the candidates.
+2021-05-07  :  12:31:02  :  User has been authenticated successfully.
+2021-05-07  :  12:31:02  :  Retrieving List of all the candidates.
+2021-05-07  :  12:31:16  :  User has been authenticated successfully.
+2021-05-07  :  12:31:16  :  Retrieving List of all the candidates.
+2021-05-07  :  12:31:47  :  User has been authenticated successfully.
+2021-05-07  :  12:31:47  :  Retrieving List of all the candidates.
+2021-05-07  :  12:32:09  :  User has been authenticated successfully.
+2021-05-07  :  12:32:09  :  Retrieving List of all the candidates.
+2021-05-07  :  12:32:24  :  User has been authenticated successfully.
+2021-05-07  :  12:32:24  :  Retrieving List of all the candidates.
+2021-05-07  :  12:32:24  :  User has been authenticated successfully.
+2021-05-07  :  12:32:24  :  Retrieving List of all the candidates.
+2021-05-07  :  12:32:29  :  User has been authenticated successfully.
+2021-05-07  :  12:32:29  :  Deleting Candidate of ID : 1004.
+2021-05-07  :  12:32:30  :  Candidate with id : 1004 has been deleted successfully.
+2021-05-07  :  12:32:30  :  User has been authenticated successfully.
+2021-05-07  :  12:32:30  :  Retrieving List of all the candidates.
+2021-05-07  :  12:32:33  :  User has been authenticated successfully.
+2021-05-07  :  12:32:33  :  Logs are being accessed.
+2021-05-07  :  12:33:09  :  User has been authenticated successfully.
+2021-05-07  :  12:33:09  :  Retrieving List of all the candidates.
+2021-05-07  :  12:33:10  :  User has been authenticated successfully.
+2021-05-07  :  12:33:10  :  Retrieving List of all the candidates.
+2021-05-07  :  12:33:14  :  User has been authenticated successfully.
+2021-05-07  :  12:33:14  :  Logs are being accessed.
+2021-05-07  :  12:33:32  :  User has been authenticated successfully.
+2021-05-07  :  12:33:32  :  Logs are being accessed.
+2021-05-07  :  12:33:32  :  User has been authenticated successfully.
+2021-05-07  :  12:33:32  :  Retrieving List of all the candidates.
+2021-05-07  :  12:34:49  :  User has been authenticated successfully.
+2021-05-07  :  12:34:49  :  Retrieving List of all the candidates.
+2021-05-07  :  12:35:28  :  User has been authenticated successfully.
+2021-05-07  :  12:35:28  :  Retrieving List of all the candidates.
+2021-05-07  :  12:35:30  :  User has been authenticated successfully.
+2021-05-07  :  12:35:30  :  Retrieving List of all the candidates.
+2021-05-07  :  12:35:32  :  User has been authenticated successfully.
+2021-05-07  :  12:35:33  :  User has been authenticated successfully.
+2021-05-07  :  12:35:33  :  Logs are being accessed.
+2021-05-07  :  12:35:34  :  User has been authenticated successfully.
+2021-05-07  :  12:35:34  :  Retrieving List of all the candidates.
+2021-05-07  :  12:35:36  :  User has been authenticated successfully.
+2021-05-07  :  12:35:36  :  Retrieving all possible matches for : 'undefined'.
+2021-05-07  :  12:35:38  :  User has been authenticated successfully.
+2021-05-07  :  12:35:38  :  Logs are being accessed.
+2021-05-07  :  12:36:41  :  User has been authenticated successfully.
+2021-05-07  :  12:36:41  :  Registering Candidate by name : Jai Arora.
+2021-05-07  :  12:36:42  :  User has been authenticated successfully.
+2021-05-07  :  12:36:42  :  Retrieving List of all the candidates.
+2021-05-07  :  12:37:30  :  User has been authenticated successfully.
+2021-05-07  :  12:37:30  :  Registering Candidate by name : Jai Arora.
+2021-05-07  :  12:37:30  :  User has been authenticated successfully.
+2021-05-07  :  12:37:30  :  Retrieving List of all the candidates.
+2021-05-07  :  12:38:02  :  User has been authenticated successfully.
+2021-05-07  :  12:38:02  :  Retrieving List of all the candidates.
+2021-05-07  :  12:38:04  :  User has been authenticated successfully.
+2021-05-07  :  12:38:04  :  Deleting Candidate of ID : 1005.
+2021-05-07  :  12:38:05  :  Candidate with id : 1005 has been deleted successfully.
+2021-05-07  :  12:38:05  :  User has been authenticated successfully.
+2021-05-07  :  12:38:05  :  Retrieving List of all the candidates.
+2021-05-07  :  12:38:05  :  User has been authenticated successfully.
+2021-05-07  :  12:38:05  :  Retrieving List of all the candidates.
+2021-05-07  :  12:39:56  :  User has been authenticated successfully.
+2021-05-07  :  12:39:56  :  Retrieving List of all the candidates.
+2021-05-07  :  12:40:13  :  User has been authenticated successfully.
+2021-05-07  :  12:40:13  :  Registering Candidate by name : Jai Arora.
+2021-05-07  :  12:41:49  :  User has been authenticated successfully.
+2021-05-07  :  12:41:49  :  Retrieving List of all the candidates.
+2021-05-07  :  12:42:17  :  User has been authenticated successfully.
+2021-05-07  :  12:42:17  :  Retrieving List of all the candidates.
+2021-05-07  :  12:42:21  :  User has been authenticated successfully.
+2021-05-07  :  12:42:21  :  Retrieving List of all the candidates.
+2021-05-07  :  12:42:22  :  User has been authenticated successfully.
+2021-05-07  :  12:42:22  :  Retrieving List of all the candidates.
+2021-05-07  :  12:42:24  :  User has been authenticated successfully.
+2021-05-07  :  12:42:24  :  Retrieving List of all the candidates.
+2021-05-07  :  12:42:27  :  User has been authenticated successfully.
+2021-05-07  :  12:42:27  :  Deleting Candidate of ID : 1006.
+2021-05-07  :  12:42:27  :  Candidate with id : 1006 has been deleted successfully.
+2021-05-07  :  12:43:42  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:43:42  :  User has been authenticated successfully.
+2021-05-07  :  12:43:42  :  Retrieving List of all the candidates.
+2021-05-07  :  12:43:44  :  User has been authenticated successfully.
+2021-05-07  :  12:43:44  :  Retrieving List of all the candidates.
+2021-05-07  :  12:43:46  :  User has been authenticated successfully.
+2021-05-07  :  12:43:46  :  Deleting Candidate of ID : 1007.
+2021-05-07  :  12:43:47  :  Candidate with id : 1007 has been deleted successfully.
+2021-05-07  :  12:43:47  :  User has been authenticated successfully.
+2021-05-07  :  12:43:47  :  Retrieving List of all the candidates.
+2021-05-07  :  12:43:52  :  User has been authenticated successfully.
+2021-05-07  :  12:43:52  :  Logs are being accessed.
+2021-05-07  :  12:44:30  :  User has been authenticated successfully.
+2021-05-07  :  12:44:30  :  Logs are being accessed.
+2021-05-07  :  12:44:30  :  User has been authenticated successfully.
+2021-05-07  :  12:44:30  :  Retrieving List of all the candidates.
+2021-05-07  :  12:45:03  :  User has been authenticated successfully.
+2021-05-07  :  12:45:03  :  Retrieving List of all the candidates.
+2021-05-07  :  12:45:45  :  User has been authenticated successfully.
+2021-05-07  :  12:45:45  :  Retrieving List of all the candidates.
+2021-05-07  :  12:46:03  :  User has been authenticated successfully.
+2021-05-07  :  12:46:03  :  Registering Candidate by name : Jai Arora.
+2021-05-07  :  12:48:07  :  User has been authenticated successfully.
+2021-05-07  :  12:48:07  :  Retrieving List of all the candidates.
+2021-05-07  :  12:48:22  :  User has been authenticated successfully.
+2021-05-07  :  12:48:22  :  Registering Candidate by name : Jai Arora.
+2021-05-07  :  12:51:26  :  Jai Arora (jai.arora@accolitedigital.com) has successfully Signed In.
+2021-05-07  :  12:51:26  :  User has been authenticated successfully.
+2021-05-07  :  12:51:26  :  Retrieving List of all the candidates.
+2021-05-07  :  12:52:01  :  User has been authenticated successfully.
+2021-05-07  :  12:52:01  :  Retrieving List of all the candidates.
+2021-05-07  :  12:52:33  :  User has been authenticated successfully.
+2021-05-07  :  12:52:33  :  Retrieving List of all the candidates.
+2021-05-07  :  12:57:20  :  User has been authenticated successfully.
+2021-05-07  :  12:57:20  :  Logs are being accessed.
+2021-05-07  :  12:57:32  :  User has been authenticated successfully.
+2021-05-07  :  12:57:32  :  Retrieving List of all the candidates.
+2021-05-07  :  12:57:34  :  User has been authenticated successfully.
+2021-05-07  :  12:57:34  :  Deleting Candidate of ID : 1008.
+2021-05-07  :  12:57:35  :  Candidate with id : 1008 has been deleted successfully.
+2021-05-07  :  12:57:35  :  User has been authenticated successfully.
+2021-05-07  :  12:57:35  :  Retrieving List of all the candidates.
+2021-05-07  :  12:57:36  :  User has been authenticated successfully.
+2021-05-07  :  12:57:36  :  Retrieving List of all the candidates.
+2021-05-07  :  12:57:38  :  User has been authenticated successfully.
+2021-05-07  :  12:57:38  :  Deleting Candidate of ID : 1009.
+2021-05-07  :  12:57:38  :  Candidate with id : 1009 has been deleted successfully.
+2021-05-07  :  12:57:38  :  User has been authenticated successfully.
+2021-05-07  :  12:57:38  :  Retrieving List of all the candidates.
+2021-05-07  :  12:57:39  :  User has been authenticated successfully.
+2021-05-07  :  12:59:01  :  User has been authenticated successfully.
+2021-05-07  :  12:59:01  :  Registering Candidate by name : Jai Arora.
+2021-05-07  :  12:59:08  :  User has been authenticated successfully.
+2021-05-07  :  12:59:08  :  Retrieving List of all the candidates.
+2021-05-07  :  12:59:46  :  User has been authenticated successfully.
+2021-05-07  :  12:59:46  :  Retrieving List of all the candidates.
+2021-05-07  :  12:59:46  :  User has been authenticated successfully.
+2021-05-07  :  12:59:46  :  Retrieving List of all the candidates.
+2021-05-07  :  12:59:56  :  User has been authenticated successfully.
+2021-05-07  :  13:36:34  :  Application shutdown requested.
+2021-05-07  :  13:36:34  :  Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-07  :  13:36:34  :  HikariPool-1 - Shutdown initiated...
+2021-05-07  :  13:36:34  :  HikariPool-1 - Shutdown completed.
